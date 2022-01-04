@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "period": "Janvier 2021",
+        "title": "Transformer une maquette en site web",
+        "mission" : {
+            "scenario": "Enfin vous avez trouvé votre premier stage en tant que développeur web chez Reservia, une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance. Un nouveau design basé sur les principes du Material Design vient d'être proposé par Loïc, designer UI. Avant de valider définitivement ce design l'entreprise décide de réaliser un prototype. La première étape consiste à intégrer la maquette responsive en HTML et CSS. Voici donc la tâche qui vous est attribué ! Loïc vous envoie un mail pour vous en dire plus, en mettant en copie votre manager, Sarah, qui est CTO de l'entreprise.",
+            "ressources" :  ["Maquettes desktop et mobile du site Reservia (PNG)","Photographies (JPG)","Logo (SVG)"],
+            "contraintes" : ["Le site devra être adapté pour desktop, mobiles et tablettes. Pour les tablettes, adaptations libre.", "Choix du format d'image le plus adapté par rapport à la résolution et aut temps de chargement.", "Les icônes proviennent de la bibliothèque FONT AWESOME.", "Couleurs de la charte graphique : bleu #0065FC, bleu clair #DEEBFF, gris #F2F2F2", "La police du site est RALEWAY", "Ne pas utiliser de framework ou pré-compilateur CSS (comme SASS, par exemple)", "Utilisation de Flexbox ou CSS Grid", "Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS", "Site compatible avec les dernières versions de Chrome et Firefox", "Séparer le code HTML du CSS"]
+        },
+        "compétences": ["Intégrer du contenu conformément à une maquette", "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement", "Mettre en place un environnement Front-End", "Implémenter une interface responsive"]
+    },
+    {
+        "id": 2,
+        "period": "Février 2021",
+        "title": "Dynamiser une page web avec des animations CSS",
+        "mission" : {
+            "scenario": "Vous venez d'être recruté chez Ohmyfood!, en tant que développeur junior. Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composerle menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !",
+            "ressources" :  ["4 menus de restaurant (TXT)","Brief créatif (PDF)","Maquettes du site (PNG)"],
+            "contraintes" : ["Police logo et titres : Shrikhand", "Texte : Roboto", "Couleurs : Primaire #9356DC, Secondaire #FF79DA, Tertiaire #99E2D0", "Le développement devra se faire en CSS, sans JavaScript, ni librairie", "Aucun framework ne devra être utilisé, en revanche l'utilisation de SASS est un plus", "Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML", "Le site devra être développé en utilisant l'approche mobile-first.", "L'ensemble du site devra être responsive sur mobile, tablette et desktop", "Les pages devront passer la validation W3C en HTML et CSS sans erreur","Le site doit être compatible avec les dernières versions desktop de Chrome et Firefox", "Les effets au clic ou au survol devront utiliser les animations ou transitions CSS."]
+        },
+        "compétences": ["Mettre en place une structure de navigation pour un site web","Mettre en oeuvre des effets CSS graphiques avancés", "Assurer la cohérence graphique d'un site web"]
+    },
+    {
+        "id": 3,
+        "period": "Février 2021",
+        "title": "Créer une landing page avec JavaScript",
+        "mission" : {
+            "scenario": "Vous avez récemment été embauché comme développeur Front-End junior dans une PME, GameOn, spécialisée dans les conférences et les concours de jeux. Vous avez fait du shadowing de votre développeur principal, pour suivre son travail au quotidien. Jason a travaillé sur la nouvelle page d'accueil et d'inscription aux concours après avoir reçu des commentaires négatifs de la part de certains utilisateurs. Malheureusement, il n'a pas eu le temps de terminer avant de partir pour son nouveau poste dans sa nouvelle entreprise. Vous devez prendre le relais et compléter la partie Front-End.",
+            "ressources" :  ["Maquettes (PDF)", "Lien vers le repo Git avec le code déjà réalisé", "Issues dans le repo Git"],
+            "contraintes" : ["Travailler sur un repo Git forké", "Utiliser des fichiers séparés pour le HTML, CSS et le JavaScript","Commenter son code en décrivant chaque fonction et chaque classe, et les parties du code qui nécessitent plus de détails", "Tester manuellement les fonctionnalités, les entrées de formulaire et l'affichage responsive"]
+        },
+        "compétences": ["Programmer en JavaScript"]
+    },
+    {
+        "id": 4,
+        "period": "Avril 2021",
+        "title": "Créer un site accessible pour une plateforme de photographes",
+        "mission" : {
+            "scenario": "Depuis quelques semaines, vous êtes développeur junior chez Teachasite, une société de conseil spécialisée dans le développement de sites web et d'applications mobiles. FishEye, un nouveau client, est un site web qui permet aux photographes indépendants, de présenter leurs meilleurs travaux. Ils ont récemmé levé des fonds et aimeraient mettre à jour leur site web.",
+            "ressources" :  ["Notes de réunion détaillant les principales fonctionnalités et les exigences technique à metrre en oeuvre (PDF)", "Maquettes Figma", "Exemples de photos et de vidéos (JPG,MP4)","Exemples de données (JSON)"],
+            "contraintes" : ["Le code est séparé en différents fichiers (HTML avec balises d'accessibilité, CSS, JavaScript", "Utilisation d'ESLint pour s'assurer que le code est robuste","Version moderne (ES6 ou supérieure) de JavaScript.","Utilisation de la Programmation Orientée Objet","Code lisible dans le choix des noms pour les variables, les fonctions et les classes","Construire le site conformément aux exigences d'accessibilité du client","Assurer la navigation au clavier", "Faire passer le code au vérificateur d'accessibilité (exemple : AChecker","Utilisation du pattern Factory Method"]
+        },
+        "compétences": ["Ecrire du code JavaScript maintenable", "Assurer l'accessibilité d'un site web","Gérer les évènements d'un site avec JavaScript","Développer une application web modulaire avec des design patterns"]
+    },
+    {
+        "id": 5,
+        "period": "Mai 2021",
+        "title": "Développer un algorithme de recherche en JavaScript",
+        "mission" : {
+            "scenario": "Vous êtes freelance et vous venez d'être missioné par l'entreprise \"Les petits plats\" en tant que développeur Front-End pour une mission de 3 mois. Après avoir édité des livres de cuisine pendant plusieurs années, l'entrprise a décidé de se lancer dans un nouveau projet : réaliser son propre site de recettes de cuisine à l'instar de Marmiton ou 750g.",
+            "ressources" :  ["Fichier JavaScript contenant un tableau JSON de 50 recettes (JS)","Cas d'utilisation du moteur de recherche (PDF)","Maquette Figma","Fiche d'investigation de fonctionnalités"],
+            "contraintes" : ["Réaliser 2 versions d'algorithme du moteur de recherche","Créer un document de comparaison (fiche d'investigation)","Utilisation de Bootstrap 4 mais pas d'autres librairie","Le code doit passer avec succès le validateur W3C","Utiliser 1 branches Git par algorithme","Faire un test de performance avec JSBench"]
+        },
+        "compétences": ["Analyser un problème informatique","Développer un algorithme pour résoudre un problème"]
+    },
+    {
+        "id": 6,
+        "period": "Juin 2021",
+        "title": "Débugger et tester un Sass RH",
+        "mission" : {
+            "scenario": "Vous êtes développeur front-end chez Billed, une entreprise qui produit des solutions Saas destinées aux équipes de ressources humaines. Malheureusement pour Billed, Garance, une collègue de la feature team \"note de frais\" a quitté l'entreprise avant d'avoir terminé l'application. Dans une semaine, l'équipe doit montrerla solution qui fonctionne à l'ensemble de l'entreprise. Mathieu, Lead Developper de la feature team a demandé à être épaulé pour tenir les délais. Vous êtes désigné pour mettre en place les tests sur la fonctionnalité \"notes de frais\"",
+            "ressources" :  ["Description des fonctionnalités (PDF)", "Repo Git du code à tester","Kanban Notion"],
+            "contraintes" : ["Fixer les bugs fixés par la QA","Ajouter des tests unitaires d'intégration pour les fichiers Bills et NewBill","Réaliser un plan de test E2E pour la QA au format PDF", "Utilisation de JEST"]
+        },
+        "compétences": ["Débugger une application","Ecrire des tests d'intégration avec JavaScript","Ecrire des tests unitaires avec JavaScript","Rédiger un plan de test end-to-end manuel"]
+    },
+    {
+        "id": 7,
+        "period": "Juillet 2021",
+        "title": "Définir les besoins pour une app de soutien scolaire",
+        "mission" : {
+            "scenario": "Vous êtes employé depuis 5 ans chez Dev4U, une entreprise de services du numérique de 120 collaborateurs comportant deux entités de développement logiciel : une entité spécialisée dans le développement d'applications mobiles, qui comprend 10 persones, une entité dédiée au Web qui comprend 8 personnes. Vous êtes Lead Developper sur l'entité Web. Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles. Leur objectif est de permettre à tout élève, où qu'il soit, d'avoir accès à un soutien scolaire à distance. Ils veulent travailler avec Dev4U sur leur projet de site web. Ils veulent permettre à leurs élèves et à leurs bénévoles de communiquer plus facilement, directement depuis leur site. Jusqu'alors ils utilisent surtout WhatsApp et les SMS.",
+            "ressources" :  ["Notes de réunion client (PDF)","Kanban Notion"],
+            "contraintes" : ["Réaliser les diagrammes de cas d'usage pour chacune des fonctionnalités majeures de chaque page (connexion, chat, calendrier, gestionnaire de tâches, tableau de bord). Pas besoin d'utiliser l'UML", "Réaliser les users stories avec critères d'acceptation pour chacune des fonctionnalités au format PDF, DOCX ou XLSX","Réaliser les maquettes du site avec un design simple, avec une maquette par page. Utilisation de Figma ou Sketch","Réaliser un kanban découpant le projet de manière macro (pas de détails techniques) en blocs de fonctionnalités et sous-fonctionnalités"]
+        },
+        "compétences": ["Contribuer à un projet en utilisant une méthodologie agile","Créer une maquette pour un client","Identifier les besoins de l'application à partir d'un cahier des charges","Modéliser une solution technique pour un client"]
+    },
+    {
+        "id": 8,
+        "period": "Août 2021",
+        "title": "Développer une application web avec React et React Router",
+        "mission" : {
+            "scenario": "Kasa vous recrute en tant que développeur Front-end en freelance pour développer leur nouvelle plateforme web. Kasa est dans le métier de la location d'appartements entre particuliers depuis près de 10 ans. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d'appartements entre particuliers en France. Le site de Kasa a été codé, il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. La CTO a lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa a également profité pour commander de nouvelles maquettes auprès d'un designer freelance.",
+            "ressources" :  ["Maquettes Figma","Fichier contenant les 20 dernières annonces (JSON)","Coding Guidelines (PDF)"],
+            "contraintes" : ["Démarrer le projet React en développant l'ensemble de l'application : composants React, routes avec React Router","Pour le défilement des photos du composant Gallery, si l'utilisateur se trouve sur la première image et qu'il clique sur le bouton précédent, la gallerie affichera la dernière image et inversement. S'il n'y a qu'une seule image les boutons précédent et suivant n'apparaissent pas.", "La gallerie doit toujours rester de la même hauteur : réajuster les photos", "Par défault, les collapse sont fermés à l'initialisation de la page","Si le collapse est ouvert, lorsque l'utilisateur clique dessus celui-ci le ferme et inversement."]
+        },
+        "compétences": ["Créer des composants avec React","Développer les routes d'une application web avec React Router","Initialiser une application web avec un framework"]
+    },
+    {
+        "id": 9,
+        "period": "Octobre 2021",
+        "title": "Développer un tableau de bord d'analytics avec React",
+        "mission" : {
+            "scenario": "Vous travaillez en tant que développeur chez SportSee, une startup dédiée au coaching sportif. En pleine croissance,l'entreprise va aujourd'hui lancer une nouvelle version de la page profil de l'utilisateur. Cette page va notamment permettre à l'utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.",
+            "ressources" :  ["Maquettes Figma","Kanban Notion avec les User Stories", "Backend utilisant NodeJS pour récupérer les données d'utilisateurs (Repo Git)"],
+            "contraintes" : ["Refaire la page profil avec React","Utilisation de D3.js ou Recharts","Se concentrer sur la version desktop avec un écran d'au moins 1024x768px","Utilisation de la méthode Fetch ou Axios poour la gestion des calls en dehors des composants","Réaliser une documentation en anglais avec JSDoc","Le fichier README ne doit comporter que les étapes d'installation et les pré-requis du projet","Intégrer des Proptypes pour chacun des composants"]
+        },
+        "compétences": ["Produire de la documentation technique pour une application","Assurer la qualité des données d'une application","Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript","Interagir avec un service web"]
+    },
+    {
+        "id": 10,
+        "period": "Novembre 2021",
+        "title": "Utiliser une API pour un compte utilisateur bancaire avec React",
+        "mission" : {
+            "scenario": "Vous venez de commencer à travailler chez Remede Agency, une agence spécialisée dans le développement d'application web. Une nouvelle banque qui démarre Argent Bank, qui essaie de percer dans le secteur a besoin d'aide pour mettre en place son application. Le projet est découpé en deux phases : la phase 1, création d'une application web permettant aux clients de se connecter et de gérer leurs comptes et leur profil. La phase 2, spécifier les endpoints d'API nécessaires pour une deuxième mission éventuelle.",
+            "ressources" :  ["HTML statique et CSS (Repo Git)","Git Issues"],
+            "contraintes" : ["Créer l'application web complète et responsive avec React","Utilisation de Redux","Pour chaque endpoints de l'API de la page des transactions : la méthode HTTP (GET,POST...),la route,la description de ce à quoi correspond le endpoint, les paramètres possibles pour tenir compte des différents scénario, les différentes réponses avec les codes de réponse correspondants", "Utilisation de Swagger"]
+        },
+        "compétences": ["Implémenter un gestionnaire d'état dans une application React","Intéragir avec l'API","Modéliser une API","S'authentifier à une API"]
+    },
+    {
+        "id": 11,
+        "period": "Décembre 2021",
+        "title": "Faire passer une librairie jQuery vers React",
+        "mission" : {
+            "scenario": "Vous travaillez pour le département technologique d'une grande société financière, WealthHealth. Cette société utlise une application interne, appelée HRNet, qui gère les dossiers des employés. L'application est ancienne et utilise jQuery côté front-end, ce qui entraîne des bugs considérables et une augmentation des plaintes en interne. Votre équipe de développement s'efforce depuis un certain temps de mettre à niveau l'application.",
+            "ressources" :  ["Repo Git du site actuel","Issues des différents plugins jQuery","1 Repo Git par plugin jQuery"],
+            "contraintes" : ["Convertir l'ensemble du projet HRNet en React","Convertir l'un des 4 plugins jQuery actuels en React,  remplacer les 3 autres en composants React","Effectuer des tests de performances Lighthouse en comparant l'ancienne et la nouvelle version de l'application","Ajouter un système de gestionnaire d'état pour remplacer le stockage local actuel","Utilisation de NPM pour le composant réutilisable"]
+        },
+        "compétences": ["Refondre une application pour réduire la dette technique","Analyser la performance d'une application web","Déployer une applcation front-end"]
+    }
+]

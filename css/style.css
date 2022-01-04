@@ -1,0 +1,63 @@
+/* Colors */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #F1F1F1;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #000000;
+  background: #333333;
+}
+.navbar .menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .menu > span {
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  font-weight: 700;
+  width: 40%;
+  text-align: center;
+}
+.navbar .menu > span::after {
+  content: "";
+  display: block;
+  width: 0px;
+  margin: 5px auto 0 auto;
+  height: 2px;
+  border-radius: 2px;
+  background: #FFFFFF;
+  transition: all 0.2s ease-out;
+}
+.navbar .menu > span:hover::after {
+  width: 100%;
+}
+.navbar .menu > span > a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
