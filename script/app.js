@@ -13,4 +13,25 @@ hamburger.addEventListener('click', (e) => {
     navbar.classList.toggle('show')
 })
 
+/** Animation  */
 
+const txtAnim = document.querySelector('.text-animation')
+
+let typewriter = new Typewriter(txtAnim, {
+    loop: false,
+    deleteSpeed: 20
+})
+
+typewriter
+    .pauseFor(1800)
+    .changeDelay(20)
+    .typeString('Moi c\'est Sandrine')
+    .pauseFor(300)
+    .typeString('<strong>, Développeuse HTML / CSS</strong> !')
+    .pauseFor(1000)
+    .deleteChars(13)
+    .typeString('<span style="color: #27ae60;"> React</span> !')
+    .pauseFor(1000)
+    .deleteChars(8)
+    .typeString('<span style="color: orange"> JavaScript</span> !')
+    .start()
