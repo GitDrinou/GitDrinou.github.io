@@ -8,7 +8,7 @@
 
     & > div > h1 {
         font-size: 3rem;
-        font-family: 'Abril Fatface', sans-serif;
+        font-family: $font-secondary;
         padding-bottom: 10px;
     }
     & > div > .text-animation {
@@ -16,3 +16,250 @@
         padding: 20px;
     }
 }
+
+.cercle-portrait > img {
+    width: 250px;
+    height: auto;
+}
+
+.presentation {
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+    border-top: 1px dashed $tertiary;
+    border-bottom: 1px dashed $tertiary;
+    color: $primary;
+
+    & .titre-pres {
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 50px 0 50px 0;
+    }
+}
+
+.container-presentation {
+    display: flex;
+    width: 100%;
+    padding-left: 200px;
+
+    & .fond-forme {
+        background: #485563;
+        background-image: linear-gradient(to right, #29323c, #485563);
+        width: 2300px;
+        height: 1500px;
+        position: absolute;
+        border-radius: 5px;
+        transform: rotate(65deg);
+        left: 0;
+        z-index: -1;
+    }
+
+    & .pres-gauche {
+        width: 600px;
+        flex-shrink: 0;
+        margin-bottom: 50px;
+        padding-left:  120px;
+        padding-top: 20px;
+
+        & > h3 {
+            text-align: center;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            font-family: $font-secondary;
+        }
+
+        & > hr {
+            width: 60px;
+            margin: 0 auto 20px auto;
+        }
+
+        & > p {
+            text-align: justify;
+        }
+    }
+
+    & .pres-droite {
+        width: 600px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    
+        & > img {
+            width: 430px;
+            height: auto;
+            border-radius: 10px;
+        }
+    }
+}
+
+
+
+.section-range {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+    border-bottom: 1px dashed $tertiary;
+    position: relative;
+    z-index: -1;
+
+    & .titre-exp {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 50px 0 10px 0;
+        font-family: $font-secondary;
+        font-weight: 500;
+    }
+
+    & > hr {
+        width: 60px;
+        margin: 0 auto 20px auto;
+        border: 1px solid $tertiary;
+        margin-bottom: 50px;
+    }
+}
+
+.grille-skill {
+    display: grid;
+    grid-template: repeat(4,50px) / repeat(2, 500px);
+    grid-gap: 30px;
+
+    & .range-cont {
+        position: relative;
+    }
+
+    & .label-skill {
+        font-size:1rem;
+        font-weight: 700;
+    }
+
+    & .number-skill {
+        font-size: 1rem;
+        font-weight: 700;
+        position: absolute;
+        top: 30px;
+        left: 5px;
+        z-index: 3;
+        color: $primary;
+
+    }
+
+    & .barre-skill {
+        height: 20px;
+        background: $skill;
+        border-radius: 5px;
+        position: absolute;
+        left: 0;
+        top: 32px;
+    }
+
+    & .barre-grise {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 32px;
+        width: 500px;
+        height: 20px;
+        background: rgb(216, 216, 216);
+        border-radius: 5px;
+    }
+
+    & .b1, & .b3 {
+        width: 90%;
+    }
+    
+    & .b2 {
+        width: 75%;
+    }
+    
+    & .b4 {
+        width: 60%;
+    }
+    
+    & .b5 {
+        width: 55%;
+    }
+    
+    & .b6, & .b7 {
+        width: 70%;    
+    }
+    
+    & .b8 {
+        width: 50%;    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+@media screen and (max-width: 1300px) {
+
+    .titre-pres {
+        padding-left: 0px;
+    }
+
+    .container-presentation {
+        padding-left: 0px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .titre-pres {
+        margin: 0 0 20px 0;
+        padding-top: 50px;
+    }
+
+    .container-presentation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        & .fond-forme {
+            width: 100%;
+            height: 150%;
+            transform: rotate(0) translateX(0) translateY(0);
+        }
+
+        & .pres-gauche {
+            width: 80%;
+            margin-bottom: 10px;
+            padding: 20px 0;
+
+            & > h3 {
+                letter-spacing: 0;
+            }
+            
+            & > p {
+                font-size: 1rem;
+            }
+        }
+        
+        & .pres-droite {
+            width: 80%;
+            justify-content: center;
+        }
+
+    }
+
+}
+

@@ -1,6 +1,7 @@
 /* Colors */
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap");
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 *,
 *::after,
 *::before {
@@ -75,6 +76,201 @@ body {
 .accueil > div > .text-animation {
   font-size: 1.5rem;
   padding: 20px;
+}
+
+.cercle-portrait > img {
+  width: 250px;
+  height: auto;
+}
+
+.presentation {
+  width: 100%;
+  padding: 50px 0;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px dashed #333333;
+  border-bottom: 1px dashed #333333;
+  color: #FFFFFF;
+}
+.presentation .titre-pres {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+
+.container-presentation {
+  display: flex;
+  width: 100%;
+  padding-left: 200px;
+}
+.container-presentation .fond-forme {
+  background: #485563;
+  background-image: linear-gradient(to right, #29323c, #485563);
+  width: 2300px;
+  height: 1500px;
+  position: absolute;
+  border-radius: 5px;
+  transform: rotate(65deg);
+  left: 0;
+  z-index: -1;
+}
+.container-presentation .pres-gauche {
+  width: 600px;
+  flex-shrink: 0;
+  margin-bottom: 50px;
+  padding-left: 120px;
+  padding-top: 20px;
+}
+.container-presentation .pres-gauche > h3 {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-family: "Abril Fatface", sans-serif;
+}
+.container-presentation .pres-gauche > hr {
+  width: 60px;
+  margin: 0 auto 20px auto;
+}
+.container-presentation .pres-gauche > p {
+  text-align: justify;
+}
+.container-presentation .pres-droite {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container-presentation .pres-droite > img {
+  width: 430px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.section-range {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 200px;
+  border-bottom: 1px dashed #333333;
+  position: relative;
+  z-index: -1;
+}
+.section-range .titre-exp {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 50px 0 10px 0;
+  font-family: "Abril Fatface", sans-serif;
+  font-weight: 500;
+}
+.section-range > hr {
+  width: 60px;
+  margin: 0 auto 20px auto;
+  border: 1px solid #333333;
+  margin-bottom: 50px;
+}
+
+.grille-skill {
+  display: grid;
+  grid-template: repeat(4, 50px)/repeat(2, 500px);
+  grid-gap: 30px;
+}
+.grille-skill .range-cont {
+  position: relative;
+}
+.grille-skill .label-skill {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.grille-skill .number-skill {
+  font-size: 1rem;
+  font-weight: 700;
+  position: absolute;
+  top: 30px;
+  left: 5px;
+  z-index: 3;
+  color: #FFFFFF;
+}
+.grille-skill .barre-skill {
+  height: 20px;
+  background: darkorange;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 32px;
+}
+.grille-skill .barre-grise {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 32px;
+  width: 500px;
+  height: 20px;
+  background: #d8d8d8;
+  border-radius: 5px;
+}
+.grille-skill .b1, .grille-skill .b3 {
+  width: 90%;
+}
+.grille-skill .b2 {
+  width: 75%;
+}
+.grille-skill .b4 {
+  width: 60%;
+}
+.grille-skill .b5 {
+  width: 55%;
+}
+.grille-skill .b6, .grille-skill .b7 {
+  width: 70%;
+}
+.grille-skill .b8 {
+  width: 50%;
+}
+
+@media screen and (max-width: 1300px) {
+  .titre-pres {
+    padding-left: 0px;
+  }
+
+  .container-presentation {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .titre-pres {
+    margin: 0 0 20px 0;
+    padding-top: 50px;
+  }
+
+  .container-presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-presentation .fond-forme {
+    width: 100%;
+    height: 150%;
+    transform: rotate(0) translateX(0) translateY(0);
+  }
+  .container-presentation .pres-gauche {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 20px 0;
+  }
+  .container-presentation .pres-gauche > h3 {
+    letter-spacing: 0;
+  }
+  .container-presentation .pres-gauche > p {
+    font-size: 1rem;
+  }
+  .container-presentation .pres-droite {
+    width: 80%;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
