@@ -95,7 +95,7 @@
 
 
 
-.section-range {
+.skills-container {
     width: 100%;
     height: auto;
     display: flex;
@@ -104,15 +104,14 @@
     flex-direction: column;
     padding-bottom: 200px;
     border-bottom: 1px dashed $tertiary;
-    position: relative;
     z-index: -1;
 
     & .titre-exp {
-        font-size: 2.5rem;
-        text-align: center;
-        margin: 50px 0 10px 0;
+        font-size: 2rem;
+        letter-spacing: 2px;
         font-family: $font-secondary;
-        font-weight: 500;
+        margin: 50px 0 10px 0;
+        font-weight: 700;
     }
 
     & > hr {
@@ -123,89 +122,134 @@
     }
 }
 
-.grille-skill {
-    display: grid;
-    grid-template: repeat(4,50px) / repeat(2, 500px);
-    grid-gap: 30px;
+.skills-list {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
-    & .range-cont {
-        position: relative;
-    }
+    & > li {
+        width: 50%;
+        padding: 20px;
 
-    & .label-skill {
-        font-size:1rem;
-        font-weight: 700;
-    }
-
-    & .number-skill {
-        font-size: 1rem;
-        font-weight: 700;
-        position: absolute;
-        top: 30px;
-        left: 5px;
-        z-index: 3;
-        color: $primary;
-
-    }
-
-    & .barre-skill {
-        height: 20px;
-        background: $skill;
-        border-radius: 5px;
-        position: absolute;
-        left: 0;
-        top: 32px;
-    }
-
-    & .barre-grise {
-        position: absolute;
-        z-index: -1;
-        left: 0;
-        top: 32px;
-        width: 500px;
-        height: 20px;
-        background: rgb(216, 216, 216);
-        border-radius: 5px;
-    }
-
-    & .b1, & .b3 {
-        width: 90%;
-    }
+        & .label-skill {
+            font-size:1rem;
+            font-weight: 700;
+        }
     
-    & .b2 {
-        width: 75%;
-    }
-    
-    & .b4 {
-        width: 60%;
-    }
-    
-    & .b5 {
-        width: 55%;
-    }
-    
-    & .b6, & .b7 {
-        width: 70%;    
-    }
-    
-    & .b8 {
-        width: 50%;    
-    }
+        & .progress1 { 
+			width: 100%;
+            background: rgb(216, 216, 216);
+            margin-top: 5px;
+			&__bar1 {            
+				height: 20px;
+				padding: 5px;
+				background: $skill;
+                width: 95%;
+                animation: fillBar1 3000ms;
+		    }
+		}
 
+        & .progress2, & .progress6 { 
+			width: 100%;
+            background: rgb(216, 216, 216);
+            margin-top: 5px;
+			&__bar2, &__bar6 {            
+				height: 20px;
+				padding: 5px;
+				background: $skill;
+                width: 85%;
+                animation: fillBar2 3000ms;
+		    }
+		}
+        
+        & .progress3, & .progress5 { 
+			width: 100%;
+            background: rgb(216, 216, 216);
+            margin-top: 5px;
+			&__bar3, &__bar5 {            
+				height: 20px;
+				padding: 5px;
+				background: $skill;
+                width: 60%;
+                animation: fillBar3 3000ms;
+		    }
+		}
+        
+        & .progress4 { 
+			width: 100%;
+            background: rgb(216, 216, 216);
+            margin-top: 5px;
+			&__bar4 {            
+				height: 20px;
+				padding: 5px;
+				background: $skill;
+                width: 75%;
+                animation: fillBar4 3000ms;
+		    }
+		}
+        
+        & .progress7 { 
+			width: 100%;
+            background: rgb(216, 216, 216);
+            margin-top: 5px;
+			&__bar7 {            
+				height: 20px;
+				padding: 5px;
+				background: $skill;
+                width: 55%;
+                animation: fillBar7 3000ms;
+		    }
+		}
+        
+        & .progress8 { 
+			width: 100%;
+            background: rgb(216, 216, 216);
+            margin-top: 5px;
+			&__bar8 {            
+				height: 20px;
+				padding: 5px;
+				background: $skill;
+                width: 35%;
+                animation: fillBar8 3000ms;
+		    }
+		}
+    }
+}    
+
+@keyframes fillBar1 {
+    from { width: 0%; }
+    to { width: 95%; }
 }
 
+@keyframes fillBar2 {
+    from { width: 0%; }
+    to { width: 85%; }
+}
 
+@keyframes fillBar3 {
+    from { width: 0%; }
+    to { width: 60%; }
+}
 
+@keyframes fillBar4 {
+    from { width: 0%; }
+    to { width: 75%; }
+}
 
+@keyframes fillBar7 {
+    from { width: 0%; }
+    to { width: 55%; }
+}
 
-
-
-
-
-
-
-
-          
+@keyframes fillBar8 {
+    from { width: 0%; }
+    to { width: 35%; }
+}
 
 
 @media screen and (max-width: 1300px) {
@@ -213,9 +257,10 @@
     .titre-pres {
         padding-left: 0px;
     }
+    
 
     .container-presentation {
-        padding-left: 0px;
+        padding: 0 20px;
     }
     
 }
@@ -230,9 +275,9 @@
 
     .container-presentation {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
 
         & .fond-forme {
             width: 100%;
@@ -243,7 +288,7 @@
         & .pres-gauche {
             width: 80%;
             margin-bottom: 10px;
-            padding: 20px 0;
+            padding: 30px 0;
 
             & > h3 {
                 letter-spacing: 0;
@@ -261,5 +306,21 @@
 
     }
 
+    .titre-exp {
+        font-size: 1.5rem;
+    }
+
+
 }
 
+
+@media screen and (max-width: 768px) {
+
+    .skills-list {
+        flex-direction: column;
+
+        & > li {
+            width: 100%;
+        }
+    }
+}

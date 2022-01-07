@@ -146,7 +146,7 @@ body {
   border-radius: 10px;
 }
 
-.section-range {
+.skills-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -155,88 +155,168 @@ body {
   flex-direction: column;
   padding-bottom: 200px;
   border-bottom: 1px dashed #333333;
-  position: relative;
   z-index: -1;
 }
-.section-range .titre-exp {
-  font-size: 2.5rem;
-  text-align: center;
-  margin: 50px 0 10px 0;
+.skills-container .titre-exp {
+  font-size: 2rem;
+  letter-spacing: 2px;
   font-family: "Abril Fatface", sans-serif;
-  font-weight: 500;
+  margin: 50px 0 10px 0;
+  font-weight: 700;
 }
-.section-range > hr {
+.skills-container > hr {
   width: 60px;
   margin: 0 auto 20px auto;
   border: 1px solid #333333;
   margin-bottom: 50px;
 }
 
-.grille-skill {
-  display: grid;
-  grid-template: repeat(4, 50px)/repeat(2, 500px);
-  grid-gap: 30px;
+.skills-list {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-.grille-skill .range-cont {
-  position: relative;
-}
-.grille-skill .label-skill {
-  font-size: 1rem;
-  font-weight: 700;
-}
-.grille-skill .number-skill {
-  font-size: 1rem;
-  font-weight: 700;
-  position: absolute;
-  top: 30px;
-  left: 5px;
-  z-index: 3;
-  color: #FFFFFF;
-}
-.grille-skill .barre-skill {
-  height: 20px;
-  background: darkorange;
-  border-radius: 5px;
-  position: absolute;
-  left: 0;
-  top: 32px;
-}
-.grille-skill .barre-grise {
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  top: 32px;
-  width: 500px;
-  height: 20px;
-  background: #d8d8d8;
-  border-radius: 5px;
-}
-.grille-skill .b1, .grille-skill .b3 {
-  width: 90%;
-}
-.grille-skill .b2 {
-  width: 75%;
-}
-.grille-skill .b4 {
-  width: 60%;
-}
-.grille-skill .b5 {
-  width: 55%;
-}
-.grille-skill .b6, .grille-skill .b7 {
-  width: 70%;
-}
-.grille-skill .b8 {
+.skills-list > li {
   width: 50%;
+  padding: 20px;
+}
+.skills-list > li .label-skill {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.skills-list > li .progress1 {
+  width: 100%;
+  background: #d8d8d8;
+  margin-top: 5px;
+}
+.skills-list > li .progress1__bar1 {
+  height: 20px;
+  padding: 5px;
+  background: darkorange;
+  width: 95%;
+  animation: fillBar1 3000ms;
+}
+.skills-list > li .progress2, .skills-list > li .progress6 {
+  width: 100%;
+  background: #d8d8d8;
+  margin-top: 5px;
+}
+.skills-list > li .progress2__bar2, .skills-list > li .progress2__bar6, .skills-list > li .progress6__bar2, .skills-list > li .progress6__bar6 {
+  height: 20px;
+  padding: 5px;
+  background: darkorange;
+  width: 85%;
+  animation: fillBar2 3000ms;
+}
+.skills-list > li .progress3, .skills-list > li .progress5 {
+  width: 100%;
+  background: #d8d8d8;
+  margin-top: 5px;
+}
+.skills-list > li .progress3__bar3, .skills-list > li .progress3__bar5, .skills-list > li .progress5__bar3, .skills-list > li .progress5__bar5 {
+  height: 20px;
+  padding: 5px;
+  background: darkorange;
+  width: 60%;
+  animation: fillBar3 3000ms;
+}
+.skills-list > li .progress4 {
+  width: 100%;
+  background: #d8d8d8;
+  margin-top: 5px;
+}
+.skills-list > li .progress4__bar4 {
+  height: 20px;
+  padding: 5px;
+  background: darkorange;
+  width: 75%;
+  animation: fillBar4 3000ms;
+}
+.skills-list > li .progress7 {
+  width: 100%;
+  background: #d8d8d8;
+  margin-top: 5px;
+}
+.skills-list > li .progress7__bar7 {
+  height: 20px;
+  padding: 5px;
+  background: darkorange;
+  width: 55%;
+  animation: fillBar7 3000ms;
+}
+.skills-list > li .progress8 {
+  width: 100%;
+  background: #d8d8d8;
+  margin-top: 5px;
+}
+.skills-list > li .progress8__bar8 {
+  height: 20px;
+  padding: 5px;
+  background: darkorange;
+  width: 35%;
+  animation: fillBar8 3000ms;
 }
 
+@keyframes fillBar1 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 95%;
+  }
+}
+@keyframes fillBar2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 85%;
+  }
+}
+@keyframes fillBar3 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+@keyframes fillBar4 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 75%;
+  }
+}
+@keyframes fillBar7 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 55%;
+  }
+}
+@keyframes fillBar8 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 35%;
+  }
+}
 @media screen and (max-width: 1300px) {
   .titre-pres {
     padding-left: 0px;
   }
 
   .container-presentation {
-    padding-left: 0px;
+    padding: 0 20px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -247,9 +327,9 @@ body {
 
   .container-presentation {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
   }
   .container-presentation .fond-forme {
     width: 100%;
@@ -259,7 +339,7 @@ body {
   .container-presentation .pres-gauche {
     width: 80%;
     margin-bottom: 10px;
-    padding: 20px 0;
+    padding: 30px 0;
   }
   .container-presentation .pres-gauche > h3 {
     letter-spacing: 0;
@@ -271,6 +351,32 @@ body {
     width: 80%;
     justify-content: center;
   }
+
+  .titre-exp {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills-list {
+    flex-direction: column;
+  }
+  .skills-list > li {
+    width: 100%;
+  }
+}
+.portfolio > h1 {
+  font-size: 3rem;
+  font-family: "Abril Fatface", sans-serif;
+  padding-bottom: 10px;
+}
+.portfolio > hr {
+  width: 80px;
+  margin: 0 auto 20px auto;
+}
+.portfolio .project-title {
+  letter-spacing: 0.2;
+  font-weight: 600;
+  font-family: "Abril Fatface", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
