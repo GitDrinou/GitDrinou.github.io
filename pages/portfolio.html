@@ -39,21 +39,51 @@
                         <div class="card-body">
                             <h4 class="project-title">HRnet</h4>
                             <p class="card-text">Passage d'une librairie jQuery vers React, utilisation d'une API et de Redux</p>
-                            <!-- <div class="btn-group">
-                                <a href="#" target="_blank" class="text-dark">
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary me-2" id="btnDetailsHRNet">
+                                    Détails du projet
+                                </button>
+                                <a href="https://github.com/GitDrinou/SandrineBrival_14_20211112.git" target="_blank" class="text-dark">
                                     <button class="btn btn-sm btn-outline-secondary me-2">
                                         Code Source
                                     </button>
                                 </a>
-                                <a href="#" target="_blank" class="text-dark">
-                                    <button class="btn btn-sm btn-outline-secondary me-2">
-                                        Voir le projet
-                                    </button>
-                                </a>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Modal HRNet -->
+                <div id="modalHRNet" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close" id="closeDetailsHRNet">&times;</span>
+                        <h4>HRNet</h4>
+                        <div class="project">   
+                            <img src="../ressources/projets/HRNet_01.png" alt="screenshot project">
+                            <div class="project-details">
+                                <div class="infos">
+                                    <p>Objectif : Faire passer une librairie jQuery vers React</p>
+                                    <p><strong>Scénario :</strong> <br>Vous travaillez pour le département technologique d'une grande société financière, WealthHealth. Cette société utlise une application interne, appelée HRNet, qui gère les dossiers des employés. L'application est ancienne et utilise jQuery côté front-end, ce qui entraîne des bugs considérables et une augmentation des plaintes en interne. Votre équipe de développement s'efforce depuis un certain temps de mettre à niveau l'application.</p>
+                                </div>
+                                <div class="languages">
+                                    <h5>Languages & co </h5>
+                                    <div class="languages-list">
+                                        <img src="../ressources//logos/react-logo-vector.svg" alt="logo react">
+                                        <img src="../ressources//logos/redux.png" alt="logo redux">
+                                        <img src="../ressources//logos/js_couleur.png" alt="logo js">
+                                        <img src="../ressources/logos/mongodb-logo.png" alt="logo mongoDb">   
+                                        <img src="../ressources/logos/npm-logo.png" alt="logo npm">                           
+                                        <img src="../ressources//logos/512px-HTML5_logo_and_wordmark.svg.png" alt="logo html">
+                                        <img src="../ressources/logos/sass_color.png" alt="logo sass">
+                                    </div>    
+                                </div>
+                            </div>                                                     
+                        </div>  
+                    </div>  
+
+                </div>
+                
 
                 <!-- App React Argent Bank / OC -->
                 <div class="col-lg-4 col-md-6 col-12">
@@ -62,8 +92,50 @@
                         <div class="card-body">
                             <h4 class="project-title">Argent Bank</h4>
                             <p class="card-text">Utilisation d'une API pour un compte utilisateur bancaire avec React</p>
+                            <div class="btn-group">
+                                <button class="btn btn-sm btn-outline-secondary me-2" id="btnDetailsAgBank">
+                                    Détails du projet
+                                </button>
+                                <a href="https://github.com/GitDrinou/SandrineBrival_13_12102021.git" target="_blank" class="text-dark">
+                                    <button class="btn btn-sm btn-outline-secondary me-2">
+                                        Code Source
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
+                </div>
+
+                <!-- Modal Argent Bank -->
+                <div id="modalAgBank" class="modal">
+
+                    <div class="modal-content">
+                        <span class="close" id="closeDetailsAgBank">&times;</span>
+                        <h4>Argent Bank</h4>
+                        <div class="project">   
+                            <img src="../ressources/projets/Argent_Bank.png" alt="screenshot project">
+                            <div class="project-details">
+                                <div class="infos">
+                                    <p>Objectif : Utiliser une API pour un compte utilisateur bancaire avec React</p>
+                                    <p><strong>Scénario :</strong> <br>Vous venez de commencer à travailler chez Remede Agency, une agence spécialisée dans le développement d'application web. Une nouvelle banque qui démarre Argent Bank, qui essaie de percer dans le secteur a besoin d'aide pour mettre en place son application. Le projet est découpé en deux phases : la phase 1, création d'une application web permettant aux clients de se connecter et de gérer leurs comptes et leur profil. La phase 2, spécifier les endpoints d'API nécessaires pour une deuxième mission éventuelle.</p>
+                                </div>
+                                <div class="languages">
+                                    <h5>Languages & co </h5>
+                                    <div class="languages-list">
+                                        <img src="../ressources//logos/react-logo-vector.svg" alt="logo react">
+                                        <img src="../ressources//logos/redux.png" alt="logo redux">
+                                        <img src="../ressources//logos/js_couleur.png" alt="logo js">
+                                        <img src="../ressources/logos/mongodb-logo.png" alt="logo mongoDb">                   
+                                        <img src="../ressources//logos/512px-HTML5_logo_and_wordmark.svg.png" alt="logo html">
+                                        <img src="../ressources/logos/sass_color.png" alt="logo sass">
+                                    </div>    
+                                </div>
+                            </div>
+                            
+                                                      
+                        </div>  
+                    </div>  
+
                 </div>
 
                 <!-- App React SportSee -->
@@ -173,6 +245,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <script src="script/app.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="../script/app.js"></script>
 </body>
 </html>

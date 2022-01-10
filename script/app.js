@@ -3,6 +3,12 @@
  */
 const hamburger = document.querySelector('.navbar-toggler')
 const navbar = document.querySelector('.navbar-collapse')
+const modalHRNet = document.getElementById("modalHRNet")
+const btnDetailsHRNet = document.getElementById("btnDetailsHRNet")
+const closeDetailsHRNet = document.getElementById("closeDetailsHRNet")
+const modalAgBank = document.getElementById("modalAgBank")
+const btnDetailsAgBank = document.getElementById("btnDetailsAgBank")
+const closeDetailsAgBank = document.getElementById("closeDetailsAgBank")
 
 /**
  * Event click on hamburger button
@@ -35,3 +41,27 @@ typewriter
     .deleteChars(13)
     .typeString('<span style="color: orange"> React</span> !')
     .start()
+
+
+/** Open / Close Modals */
+
+// Open functions
+btnDetailsHRNet.onclick = () => { modalHRNet.style.display = "block" }
+btnDetailsAgBank.onclick = () => { modalAgBank.style.display = "block" }
+
+// Close functions
+closeDetailsHRNet.onclick = () => { modalHRNet.style.display = "none" }
+closeDetailsAgBank.onclick = () => { modalAgBank.style.display = "none" }
+
+// if user clicks outside the modal
+window.onclick = (e) => {
+    switch(e.target) {
+        case modalHRNet :
+            modalHRNet.style.display = "none"
+            break
+        case modalAgBank : 
+            modalAgBank.style.display = "none"
+            break
+        default : break
+    }
+}
