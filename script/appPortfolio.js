@@ -39,17 +39,17 @@ const closeDetailsReservia = document.getElementById("closeDetailsReservia")
 /** Open / Close Modals */
 
 // Open functions
-btnDetailsHRNet.addEventListener('onclick', () => { modalHRNet.style.display = "block" })
-btnDetailsAgBank.addEventListener('onclick', () => { modalAgBank.style.display = "block" })
-btnDetailsSportSee.addEventListener('onclick', () => { modalSportSee.style.display = "block" })
-btnDetailsKasa.addEventListener('onclick', () => { modalKasa.style.display = "block" })
-btnDetailsLearn.addEventListener('onclick', () => { modalLearn.style.display = "block" })
-btnDetailsBilled.addEventListener('onclick', () => { modalBilled.style.display = "block" })
-btnDetailsLPP.addEventListener('onclick', () => { modalLPP.style.display = "block" })
-btnDetailsFishEye.addEventListener('onclick', () => { modalFishEye.style.display = "block" })
-btnDetailsGameOn.addEventListener('onclick', () => { modalGameOn.style.display = "block" })
-btnDetailsOhMy.addEventListener('onclick', () => { modalOhMy.style.display = "block" })
-btnDetailsReservia.addEventListener('onclick', () => { modalReservia.style.display = "block" })
+btnDetailsHRNet.onclick = () => { modalHRNet.style.display = "block" }
+btnDetailsAgBank.onclick = () => { modalAgBank.style.display = "block" }
+btnDetailsSportSee.onclick = () => { modalSportSee.style.display = "block" }
+btnDetailsKasa.onclick = () => { modalKasa.style.display = "block" }
+btnDetailsLearn.onclick = () => { modalLearn.style.display = "block" }
+btnDetailsBilled.onclick = () => { modalBilled.style.display = "block" }
+btnDetailsLPP.onclick = () => { modalLPP.style.display = "block" }
+btnDetailsFishEye.onclick = () => { modalFishEye.style.display = "block" }
+btnDetailsGameOn.onclick = () => { modalGameOn.style.display = "block" }
+btnDetailsOhMy.onclick = () => { modalOhMy.style.display = "block" }
+btnDetailsReservia.onclick = () => { modalReservia.style.display = "block" }
 
 // Close functions
 closeDetailsHRNet.onclick = () => { modalHRNet.style.display = "none" }
