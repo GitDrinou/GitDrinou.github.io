@@ -363,6 +363,10 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  .titre-pres {
+    padding: 50px 20px 0px 20px;
+  }
+
   .skills-list {
     flex-direction: column;
   }
@@ -380,7 +384,7 @@ body {
   margin: 0 auto 20px auto;
 }
 .portfolio .project-title {
-  letter-spacing: 0.2;
+  letter-spacing: 0.4;
   font-weight: 600;
   font-family: "Abril Fatface", sans-serif;
 }
@@ -409,13 +413,17 @@ body {
   color: #6666;
   position: absolute;
   right: 25px;
-  font-size: 28px;
+  font-size: 2rem;
   font-weight: bold;
+  position: absolute;
+  top: 5px;
+  transform: rotate(45deg);
 }
 .modal .close:hover, .modal .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
+  transform: scale(1.5) rotate(90deg);
 }
 .modal h4 {
   font-size: 2.5rem;
@@ -452,6 +460,7 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .languages-list > img {
   padding-right: 10px;
@@ -469,6 +478,9 @@ body {
 @media screen and (max-width: 1300px) {
   .project {
     flex-direction: column;
+  }
+  .project > img {
+    margin-bottom: 20px;
   }
 }
 
