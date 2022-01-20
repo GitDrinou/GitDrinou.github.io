@@ -10,7 +10,7 @@
         "ressources" :  ["Maquettes desktop et mobile du site Reservia (PNG)","Photographies (JPG)","Logo (SVG)"],
         "contraintes" : ["Le site devra être adapté pour desktop, mobiles et tablettes. Pour les tablettes, adaptations libre.", "Choix du format d'image le plus adapté par rapport à la résolution et aut temps de chargement.", "Les icônes proviennent de la bibliothèque FONT AWESOME.", "Couleurs de la charte graphique : bleu #0065FC, bleu clair #DEEBFF, gris #F2F2F2", "La police du site est RALEWAY", "Ne pas utiliser de framework ou pré-compilateur CSS (comme SASS, par exemple)", "Utilisation de Flexbox ou CSS Grid", "Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS", "Site compatible avec les dernières versions de Chrome et Firefox", "Séparer le code HTML du CSS"],
         "compétences": ["Intégrer du contenu conformément à une maquette", "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement", "Mettre en place un environnement Front-End", "Implémenter une interface responsive"],
-        "langages": ["HTML","CSS"],
+        "langages": ["html","css"],
         "image_Portfolio": "airline-g245a3e764_640.webp",
         "image_Projet":"Reservia.webp"
     },
@@ -25,7 +25,7 @@
         "ressources" :  ["4 menus de restaurant (TXT)","Brief créatif (PDF)","Maquettes du site (PNG)"],
         "contraintes" : ["Police logo et titres : Shrikhand", "Texte : Roboto", "Couleurs : Primaire #9356DC, Secondaire #FF79DA, Tertiaire #99E2D0", "Le développement devra se faire en CSS, sans JavaScript, ni librairie", "Aucun framework ne devra être utilisé, en revanche l'utilisation de SASS est un plus", "Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML", "Le site devra être développé en utilisant l'approche mobile-first.", "L'ensemble du site devra être responsive sur mobile, tablette et desktop", "Les pages devront passer la validation W3C en HTML et CSS sans erreur","Le site doit être compatible avec les dernières versions desktop de Chrome et Firefox", "Les effets au clic ou au survol devront utiliser les animations ou transitions CSS."],
         "compétences": ["Mettre en place une structure de navigation pour un site web","Mettre en oeuvre des effets CSS graphiques avancés", "Assurer la cohérence graphique d'un site web"],
-        "langages": ["HTML","SASS","CSS"],
+        "langages": ["html","sass","css"],
         "image_Portfolio": "store-g072a01e36_640.webp",
         "image_Projet":"OhMyFood.webp"
     },
@@ -40,7 +40,7 @@
         "ressources" :  ["Maquettes (PDF)", "Lien vers le repo Git avec le code déjà réalisé", "Issues dans le repo Git"],
         "contraintes" : ["Travailler sur un repo Git forké", "Utiliser des fichiers séparés pour le HTML, CSS et le JavaScript","Commenter son code en décrivant chaque fonction et chaque classe, et les parties du code qui nécessitent plus de détails", "Tester manuellement les fonctionnalités, les entrées de formulaire et l'affichage responsive"],
         "compétences": ["Programmer en JavaScript"],
-        "langages": ["JS","HTML","SASS","CSS"],
+        "langages": ["js","html","sass","css"],
         "image_Portfolio": "gamer-g8426ef7a3_640.webp",
         "image_Projet":"GameOn.webp"
     },
@@ -55,7 +55,7 @@
         "ressources" :  ["Notes de réunion détaillant les principales fonctionnalités et les exigences technique à metrre en oeuvre (PDF)", "Maquettes Figma", "Exemples de photos et de vidéos (JPG,MP4)","Exemples de données (JSON)"],
         "contraintes" : ["Le code est séparé en différents fichiers (HTML avec balises d'accessibilité, CSS, JavaScript", "Utilisation d'ESLint pour s'assurer que le code est robuste","Version moderne (ES6 ou supérieure) de JavaScript.","Utilisation de la Programmation Orientée Objet","Code lisible dans le choix des noms pour les variables, les fonctions et les classes","Construire le site conformément aux exigences d'accessibilité du client","Assurer la navigation au clavier", "Faire passer le code au vérificateur d'accessibilité (exemple : AChecker","Utilisation du pattern Factory Method"],
         "compétences": ["Ecrire du code JavaScript maintenable", "Assurer l'accessibilité d'un site web","Gérer les évènements d'un site avec JavaScript","Développer une application web modulaire avec des design patterns"],
-        "langages": ["JS","HTML","SASS","CSS"],
+        "langages": ["js","html","sass","css"],
         "image_Portfolio": "photography-g0e2ad97af_640.webp",
         "image_Projet":"FishEye.webp"
     },
@@ -70,7 +70,7 @@
         "ressources" :  ["Fichier JavaScript contenant un tableau JSON de 50 recettes (JS)","Cas d'utilisation du moteur de recherche (PDF)","Maquette Figma","Fiche d'investigation de fonctionnalités"],
         "contraintes" : ["Réaliser 2 versions d'algorithme du moteur de recherche","Créer un document de comparaison (fiche d'investigation)","Utilisation de Bootstrap 4 mais pas d'autres librairie","Le code doit passer avec succès le validateur W3C","Utiliser 1 branches Git par algorithme","Faire un test de performance avec JSBench"],
         "compétences": ["Analyser un problème informatique","Développer un algorithme pour résoudre un problème"],
-        "langages": ["JS","BOOTSTRAP","HTML","SASS"],
+        "langages": ["js","bootstrap","html","sass"],
         "image_Portfolio": "cocktail-ga72420419_640.webp",
         "image_Projet":"LesPetitsPlats.webp"
     },
@@ -85,7 +85,7 @@
         "ressources" :  ["Description des fonctionnalités (PDF)", "Repo Git du code à tester","Kanban Notion"],
         "contraintes" : ["Fixer les bugs fixés par la QA","Ajouter des tests unitaires d'intégration pour les fichiers Bills et NewBill","Réaliser un plan de test E2E pour la QA au format PDF", "Utilisation de JEST"],
         "compétences": ["Débugger une application","Ecrire des tests d'intégration avec JavaScript","Ecrire des tests unitaires avec JavaScript","Rédiger un plan de test end-to-end manuel"],
-        "langages": ["JEST","JS","HTML","CSS"],
+        "langages": ["jest","js","html","css"],
         "image_Portfolio": "audit-gc2eefd90b_640.webp",
         "image_Projet":"Billed.webp"
     },
@@ -100,7 +100,7 @@
         "ressources" :  ["Notes de réunion client (PDF)","Kanban Notion"],
         "contraintes" : ["Réaliser les diagrammes de cas d'usage pour chacune des fonctionnalités majeures de chaque page (connexion, chat, calendrier, gestionnaire de tâches, tableau de bord). Pas besoin d'utiliser l'UML", "Réaliser les users stories avec critères d'acceptation pour chacune des fonctionnalités au format PDF, DOCX ou XLSX","Réaliser les maquettes du site avec un design simple, avec une maquette par page. Utilisation de Figma ou Sketch","Réaliser un kanban découpant le projet de manière macro (pas de détails techniques) en blocs de fonctionnalités et sous-fonctionnalités"],
         "compétences": ["Contribuer à un projet en utilisant une méthodologie agile","Créer une maquette pour un client","Identifier les besoins de l'application à partir d'un cahier des charges","Modéliser une solution technique pour un client"],
-        "langages": ["FIGMA","NOTION","WORD"],
+        "langages": ["figma","notion","word"],
         "image_Portfolio": "laptop-ga36d2540c_640.webp",
         "image_Projet":"LearnHome.webp"
     },
@@ -115,7 +115,7 @@
         "ressources" :  ["Maquettes Figma","Fichier contenant les 20 dernières annonces (JSON)","Coding Guidelines (PDF)"],
         "contraintes" : ["Démarrer le projet React en développant l'ensemble de l'application : composants React, routes avec React Router","Pour le défilement des photos du composant Gallery, si l'utilisateur se trouve sur la première image et qu'il clique sur le bouton précédent, la gallerie affichera la dernière image et inversement. S'il n'y a qu'une seule image les boutons précédent et suivant n'apparaissent pas.", "La gallerie doit toujours rester de la même hauteur : réajuster les photos", "Par défault, les collapse sont fermés à l'initialisation de la page","Si le collapse est ouvert, lorsque l'utilisateur clique dessus celui-ci le ferme et inversement."],
         "compétences": ["Créer des composants avec React","Développer les routes d'une application web avec React Router","Initialiser une application web avec un framework"],
-        "langages": ["JS","HTML","SASS","CSS"],
+        "langages": ["js","html","sass","css"],
         "image_Portfolio": "realtor-g80fb8cee3_640.webp",
         "image_Projet":"Kasa.webp"
     },
@@ -130,7 +130,7 @@
         "ressources" :  ["Maquettes Figma","Kanban Notion avec les User Stories", "Backend utilisant NodeJS pour récupérer les données d'utilisateurs (Repo Git)"],
         "contraintes" : ["Refaire la page profil avec React","Utilisation de D3.js ou Recharts","Se concentrer sur la version desktop avec un écran d'au moins 1024x768px","Utilisation de la méthode Fetch ou Axios poour la gestion des calls en dehors des composants","Réaliser une documentation en anglais avec JSDoc","Le fichier README ne doit comporter que les étapes d'installation et les pré-requis du projet","Intégrer des Proptypes pour chacun des composants"],
         "compétences": ["Produire de la documentation technique pour une application","Assurer la qualité des données d'une application","Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript","Interagir avec un service web"],
-        "langages": ["REACT","JS","HTML","SASS"],
+        "langages": ["react","hs","hrml","sass"],
         "image_Portfolio": "ehr-ge0c76bed7_640.webp",
         "image_Projet":"SportSee.webp"
     },
@@ -145,7 +145,7 @@
         "ressources" :  ["HTML statique et CSS (Repo Git)","Git Issues"],
         "contraintes" : ["Créer l'application web complète et responsive avec React","Utilisation de Redux","Pour chaque endpoints de l'API de la page des transactions : la méthode HTTP (GET,POST...),la route,la description de ce à quoi correspond le endpoint, les paramètres possibles pour tenir compte des différents scénario, les différentes réponses avec les codes de réponse correspondants", "Utilisation de Swagger"],
         "compétences": ["Implémenter un gestionnaire d'état dans une application React","Intéragir avec l'API","Modéliser une API","S'authentifier à une API"],
-        "langages": ["REACT","REDUX","JS","MONGODB","SWAGGER","HTML","SASS"],
+        "langages": ["react","redux","js","mongodb","swagger","html","sass"],
         "image_Portfolio": "money-g650f22524_640.webp",
         "image_Projet":"Argent_Bank.webp"
     },
@@ -160,7 +160,7 @@
         "ressources" :  ["Repo Git du site actuel","Issues des différents plugins jQuery","1 Repo Git par plugin jQuery"],
         "contraintes" : ["Convertir l'ensemble du projet HRNet en React","Convertir l'un des 4 plugins jQuery actuels en React,  remplacer les 3 autres en composants React","Effectuer des tests de performances Lighthouse en comparant l'ancienne et la nouvelle version de l'application","Ajouter un système de gestionnaire d'état pour remplacer le stockage local actuel","Utilisation de NPM pour le composant réutilisable"],
         "compétences": ["Refondre une application pour réduire la dette technique","Analyser la performance d'une application web","Déployer une applcation front-end"],
-        "langages": ["REACT","REDUX","JS","MONGODB","NPM","HTML","SASS"],
+        "langages": ["react","redux","js","mongodb","npm","html","sass"],
         "image_Portfolio": "id-g1dfa405c0_640.webp",
         "image_Projet":"HRNet_01.webp"
     }
