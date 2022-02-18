@@ -156,6 +156,7 @@ body {
   padding-bottom: 200px;
   border-bottom: 1px dashed #333333;
   z-index: -1;
+  padding: 20px 20px 80px 20px;
 }
 .skills-container .titre-exp {
   font-size: 2rem;
@@ -168,148 +169,22 @@ body {
   width: 60px;
   margin: 0 auto 20px auto;
   border: 1px solid #333333;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
-.skills-list {
-  width: 80%;
+.skill-body {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  justify-content: space-between;
+  align-items: center;
 }
-.skills-list > li {
-  width: 50%;
-  padding: 20px;
+.skill-body .skill-label {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
-.skills-list > li .label-skill {
-  font-size: 1rem;
-  font-weight: 700;
-}
-.skills-list > li .progress1 {
-  width: 100%;
-  background: #d8d8d8;
-  margin-top: 5px;
-}
-.skills-list > li .progress1__bar1 {
-  height: 20px;
-  padding: 5px;
-  background: darkorange;
-  width: 95%;
-  animation: fillBar1 3000ms;
-}
-.skills-list > li .progress2, .skills-list > li .progress6 {
-  width: 100%;
-  background: #d8d8d8;
-  margin-top: 5px;
-}
-.skills-list > li .progress2__bar2, .skills-list > li .progress2__bar6, .skills-list > li .progress6__bar2, .skills-list > li .progress6__bar6 {
-  height: 20px;
-  padding: 5px;
-  background: darkorange;
-  width: 85%;
-  animation: fillBar2 3000ms;
-}
-.skills-list > li .progress3, .skills-list > li .progress5 {
-  width: 100%;
-  background: #d8d8d8;
-  margin-top: 5px;
-}
-.skills-list > li .progress3__bar3, .skills-list > li .progress3__bar5, .skills-list > li .progress5__bar3, .skills-list > li .progress5__bar5 {
-  height: 20px;
-  padding: 5px;
-  background: darkorange;
-  width: 60%;
-  animation: fillBar3 3000ms;
-}
-.skills-list > li .progress4 {
-  width: 100%;
-  background: #d8d8d8;
-  margin-top: 5px;
-}
-.skills-list > li .progress4__bar4 {
-  height: 20px;
-  padding: 5px;
-  background: darkorange;
-  width: 75%;
-  animation: fillBar4 3000ms;
-}
-.skills-list > li .progress7 {
-  width: 100%;
-  background: #d8d8d8;
-  margin-top: 5px;
-}
-.skills-list > li .progress7__bar7 {
-  height: 20px;
-  padding: 5px;
-  background: darkorange;
-  width: 55%;
-  animation: fillBar7 3000ms;
-}
-.skills-list > li .progress8 {
-  width: 100%;
-  background: #d8d8d8;
-  margin-top: 5px;
-}
-.skills-list > li .progress8__bar8 {
-  height: 20px;
-  padding: 5px;
-  background: darkorange;
-  width: 35%;
-  animation: fillBar8 3000ms;
+.skill-body .skill-logo {
+  width: 40px;
 }
 
-@keyframes fillBar1 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 95%;
-  }
-}
-@keyframes fillBar2 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 85%;
-  }
-}
-@keyframes fillBar3 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 60%;
-  }
-}
-@keyframes fillBar4 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 75%;
-  }
-}
-@keyframes fillBar7 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 55%;
-  }
-}
-@keyframes fillBar8 {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 35%;
-  }
-}
 .titreContact {
   font-size: 2rem;
   padding: 40px 0 50px 0;
@@ -373,6 +248,10 @@ body {
   .skills-list > li {
     width: 100%;
   }
+
+  .graphSVG {
+    grid-template-columns: 1fr;
+  }
 }
 .portfolio > h1 {
   font-size: 3rem;
@@ -387,6 +266,14 @@ body {
   letter-spacing: 0.4;
   font-weight: 600;
   font-family: "Abril Fatface", sans-serif;
+}
+
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-card .project-from {
+  width: 32px;
 }
 
 /* The Modal (background) */

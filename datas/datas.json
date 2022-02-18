@@ -12,7 +12,9 @@
         "compétences": ["Intégrer du contenu conformément à une maquette", "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement", "Mettre en place un environnement Front-End", "Implémenter une interface responsive"],
         "langages": ["html","css"],
         "image_Portfolio": "airline-g245a3e764_640.webp",
-        "image_Projet":"Reservia.webp"
+        "image_Projet":"Reservia.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
     },
     {
         "id": 2,
@@ -27,7 +29,9 @@
         "compétences": ["Mettre en place une structure de navigation pour un site web","Mettre en oeuvre des effets CSS graphiques avancés", "Assurer la cohérence graphique d'un site web"],
         "langages": ["html","sass","css"],
         "image_Portfolio": "store-g072a01e36_640.webp",
-        "image_Projet":"OhMyFood.webp"
+        "image_Projet":"OhMyFood.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
     },
     {
         "id": 3,
@@ -42,7 +46,9 @@
         "compétences": ["Programmer en JavaScript"],
         "langages": ["js","html","sass","css"],
         "image_Portfolio": "gamer-g8426ef7a3_640.webp",
-        "image_Projet":"GameOn.webp"
+        "image_Projet":"GameOn.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
     },
     {
         "id": 4,
@@ -57,7 +63,9 @@
         "compétences": ["Ecrire du code JavaScript maintenable", "Assurer l'accessibilité d'un site web","Gérer les évènements d'un site avec JavaScript","Développer une application web modulaire avec des design patterns"],
         "langages": ["js","html","sass","css"],
         "image_Portfolio": "photography-g0e2ad97af_640.webp",
-        "image_Projet":"FishEye.webp"
+        "image_Projet":"FishEye.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
     },
     {
         "id": 5,
@@ -72,7 +80,9 @@
         "compétences": ["Analyser un problème informatique","Développer un algorithme pour résoudre un problème"],
         "langages": ["js","bootstrap","html","sass"],
         "image_Portfolio": "cocktail-ga72420419_640.webp",
-        "image_Projet":"LesPetitsPlats.webp"
+        "image_Projet":"LesPetitsPlats.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
     },
     {
         "id": 6,
@@ -87,7 +97,9 @@
         "compétences": ["Débugger une application","Ecrire des tests d'intégration avec JavaScript","Ecrire des tests unitaires avec JavaScript","Rédiger un plan de test end-to-end manuel"],
         "langages": ["jest","js","html","css"],
         "image_Portfolio": "audit-gc2eefd90b_640.webp",
-        "image_Projet":"Billed.webp"
+        "image_Projet":"Billed.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
     },
     {
         "id": 7,
@@ -102,7 +114,9 @@
         "compétences": ["Contribuer à un projet en utilisant une méthodologie agile","Créer une maquette pour un client","Identifier les besoins de l'application à partir d'un cahier des charges","Modéliser une solution technique pour un client"],
         "langages": ["figma","notion","word"],
         "image_Portfolio": "laptop-ga36d2540c_640.webp",
-        "image_Projet":"LearnHome.webp"
+        "image_Projet":"LearnHome.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
     },
     {
         "id": 8,
@@ -117,7 +131,9 @@
         "compétences": ["Créer des composants avec React","Développer les routes d'une application web avec React Router","Initialiser une application web avec un framework"],
         "langages": ["js","html","sass","css"],
         "image_Portfolio": "realtor-g80fb8cee3_640.webp",
-        "image_Projet":"Kasa.webp"
+        "image_Projet":"Kasa.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
     },
     {
         "id": 9,
@@ -132,7 +148,9 @@
         "compétences": ["Produire de la documentation technique pour une application","Assurer la qualité des données d'une application","Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript","Interagir avec un service web"],
         "langages": ["react","hs","hrml","sass"],
         "image_Portfolio": "ehr-ge0c76bed7_640.webp",
-        "image_Projet":"SportSee.webp"
+        "image_Projet":"SportSee.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
     },
     {
         "id": 10,
@@ -147,7 +165,9 @@
         "compétences": ["Implémenter un gestionnaire d'état dans une application React","Intéragir avec l'API","Modéliser une API","S'authentifier à une API"],
         "langages": ["react","redux","js","mongodb","swagger","html","sass"],
         "image_Portfolio": "money-g650f22524_640.webp",
-        "image_Projet":"Argent_Bank.webp"
+        "image_Projet":"Argent_Bank.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
     },
     {
         "id": 11,
@@ -162,6 +182,25 @@
         "compétences": ["Refondre une application pour réduire la dette technique","Analyser la performance d'une application web","Déployer une applcation front-end"],
         "langages": ["react","redux","js","mongodb","npm","html","sass"],
         "image_Portfolio": "id-g1dfa405c0_640.webp",
-        "image_Projet":"HRNet_01.webp"
+        "image_Projet":"HRNet_01.webp",
+        "from": "openclassrooms.webp",
+        "from_label": "OpenClassrooms"
+    },
+    {
+        "id": 12,
+        "period": "Janvier 2022",
+        "gitUrl": "https://github.com/GitDrinou/FM-Tip-Calculator-React-App.git",
+        "title": "Tip Calculator",
+        "resume":"Tip calculator app challenge on Frontend Mentor",
+        "goal": "Relever le challenge de Frontend Mentor",
+        "scenario": "Les utilisateurs doivent pouvoir : afficher l'application  de manière optimale en fonction de la taille de l'écran de leur appareil, voir les états de survols pour tous les éléments interactifs de la page et bien évidemment calculer le pourboire et le coût total de la facture par personne.",
+        "ressources" :  ["Maquettes de l'application"],
+        "contraintes" : [],
+        "compétences": ["Pratiquer la librairie React et Sass"],
+        "langages": ["react","js","html","sass"],
+        "image_Portfolio": "financial-g132c05588_640.webp",
+        "image_Projet":"tipCAlculator.webp",
+        "from": "frontendmentor.webp",
+        "from_label": "Frontend_Mentor"
     }
 ]

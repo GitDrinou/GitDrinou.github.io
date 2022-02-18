@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "label": "Autonomie",
+        "value": 30
+    },
+    {
+        "id": 2,
+        "label": "Esprit d'équipe",
+        "value": 30
+    },
+    {
+        "id": 3,
+        "label": "Curiosité",
+        "value": 20
+    },
+    {
+        "id": 4,
+        "label": "Adaptation",
+        "value": 15
+    },
+    {
+        "id": 5,
+        "label": "Humour",
+        "value": 5
+    }
+]

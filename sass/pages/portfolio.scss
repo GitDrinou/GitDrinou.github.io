@@ -20,6 +20,16 @@
 
 }
 
+.footer-card { 
+    display: flex;
+    justify-content: space-between;
+
+    & .project-from {
+        width: 32px;
+        
+    }
+}
+
 /* The Modal (background) */
 .modal {
     display: none;

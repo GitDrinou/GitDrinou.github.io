@@ -61,15 +61,18 @@ function displayProjects(obj) {
                     <div class="card-body">
                         <h4 class="project-title">${project.title}</h4>
                         <p class="card-text">${project.resume}</p>
-                        <div class="btn-group">
-                            <button class="btn btn-sm btn-outline-secondary me-2" onClick="setModal(${project.id})">
-                                Détails du projet
-                            </button>
-                            <a href="${project.gitUrl}" rel="noopener" target="_blank" class="text-dark">
-                                <button class="btn btn-sm btn-outline-secondary me-2">
-                                    Code Source
+                        <div class="btn-group footer-card">
+                            <div class="btn-project">
+                                <button class="btn btn-sm btn-outline-secondary me-2" onClick="setModal(${project.id})">
+                                    Détails du projet
                                 </button>
-                            </a>
+                                <a href="${project.gitUrl}" rel="noopener" target="_blank" class="text-dark">
+                                    <button class="btn btn-sm btn-outline-secondary me-2">
+                                        Code Source
+                                    </button>
+                                </a>
+                            </div>
+                            <div><img src="../ressources/logos/${project.from}" alt=${project.from_label} title=${project.from_label} class="project-from"></div>
                         </div>
                     </div>
                 </div>
