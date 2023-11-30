@@ -76,7 +76,12 @@
         "label" : "Git",
         "level" : 5,
         "logo" : "git.webp"
+    },
+    {
+        "id" : 14,
+        "label" : "Flutter",
+        "level" : 4,
+        "logo" : "flutter.webp"
     }
-
 ]
     
