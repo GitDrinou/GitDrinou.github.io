@@ -208,7 +208,7 @@
         "period": "Novembre 2023",
         "urlRepo": "https://github.com/GitDrinou/Taskmate.git",
         "title": "Taskmate",
-        "resume":"Gestionnaire de tâches",
+        "resume":"Gestionnaire de tâches avec un cours en ligne O'Reilly",
         "goal": "On reprend les révisions sur React après plus d'un an sans y toucher.",
         "scenario": "Suivre un cours O'Reilly en ligne du débutant au professionnel. Ceci est le premier projet du cours. On commence petit pour arriver à une application web plus dynamique avec des APIs.",
         "ressources" :  ["Fichier CSS"],
