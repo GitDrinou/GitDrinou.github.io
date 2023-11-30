@@ -2,7 +2,7 @@
     {
         "id": 1,
         "period": "Janvier 2021",
-        "gitUrl": "https://github.com/GitDrinou/SandrineBrival_2_19122020.git",
+        "urlRepo": "https://github.com/GitDrinou/SandrineBrival_2_19122020.git",
         "title": "Reservia",
         "resume": "Transformation d'une maquette en site web en HTML et CSS uniquement",
         "goal": "Transformer une maquette en site web",
@@ -19,7 +19,7 @@
     {
         "id": 2,
         "period": "Février 2021",
-        "gitUrl": "https://github.com/GitDrinou/SandrineBrival_3_08012021.git",
+        "urlRepo": "https://github.com/GitDrinou/SandrineBrival_3_08012021.git",
         "title": "Ohmyfood",
         "resume": "Développement de pages web avec les animations css",
         "goal": "Dynamiser une page web avec des animations CSS",
@@ -36,7 +36,7 @@
     {
         "id": 3,
         "period": "Février 2021",
-        "gitUrl": "https://github.com/GitDrinou/GameOn-website-FR.git",
+        "urlRepo": "https://github.com/GitDrinou/GameOn-website-FR.git",
         "title": "Game On",
         "resume": "Debuggage et développement d'une landing page avec JavaScript",
         "goal": "Créer une landing page avec JavaScript",
@@ -53,7 +53,7 @@
     {
         "id": 4,
         "period": "Avril 2021",
-        "gitUrl": "https://github.com/GitDrinou/SandrineBrival_6_04032021.git",
+        "urlRepo": "https://github.com/GitDrinou/SandrineBrival_6_04032021.git",
         "title": "FishEye",
         "resume": "Création d'un site accessible pour une plateforme de photographes",
         "goal": "Créer un site accessible pour une plateforme de photographes",
@@ -70,7 +70,7 @@
     {
         "id": 5,
         "period": "Mai 2021",
-        "gitUrl": "https://github.com/GitDrinou/SandrineBrival_7_22042021.git",
+        "urlRepo": "https://github.com/GitDrinou/SandrineBrival_7_22042021.git",
         "title": "Les Petits Plats",
         "resume": "Développement d'un algorithme de recherche en JavaScript",
         "goal": "Développer un algorithme de recherche en JavaScript",
@@ -87,7 +87,7 @@
     {
         "id": 6,
         "period": "Juin 2021",
-        "gitUrl": "https://github.com/GitDrinou/SandrineBrival_9_24052021.git",
+        "urlRepo": "https://github.com/GitDrinou/SandrineBrival_9_24052021.git",
         "title": "Billed",
         "resume": "Debuggage et tests unitaire automatique d'un SaaS RH",
         "goal": "Débugger et tester un Sass RH",
@@ -104,7 +104,7 @@
     {
         "id": 7,
         "period": "Juillet 2021",
-        "gitUrl": "../ressources/projets/LearnAtHome/LearnAtHome - Documents.zip",
+        "urlRepo": "../ressources/projets/LearnAtHome/LearnAtHome - Documents.zip",
         "title": "Learn@Home",
         "resume": "Définition des besoins pour une application de soutien scolaire",
         "goal": "Définir les besoins pour une app de soutien scolaire",
@@ -121,7 +121,7 @@
     {
         "id": 8,
         "period": "Août 2021",
-        "gitUrl": "https://github.com/GitDrinou/SandrineBrival_11_30072021.git",
+        "urlRepo": "https://github.com/GitDrinou/SandrineBrival_11_30072021.git",
         "title": "Kasa",
         "resume": "Développement d'une application web avec React et React Router",
         "goal": "Développer une application web avec React et React Router",
@@ -138,7 +138,7 @@
     {
         "id": 9,
         "period": "Octobre 2021",
-        "gitUrl": "https://github.com/GitDrinou/SandrineBrival_12_20210913.git",
+        "urlRepo": "https://github.com/GitDrinou/SandrineBrival_12_20210913.git",
         "title": "SportSee",
         "resume": "Développement d'un tableau de bord d'analytics avec React",
         "goal": "Développer un tableau de bord d'analytics avec React",
@@ -155,7 +155,7 @@
     {
         "id": 10,
         "period": "Novembre 2021",
-        "gitUrl": "https://github.com/GitDrinou/SandrineBrival_13_12102021.git",
+        "urlRepo": "https://github.com/GitDrinou/SandrineBrival_13_12102021.git",
         "title": "Argent Bank",
         "resume": "Utilisation d'une API pour un compte utilisateur bancaire avec React",
         "goal": "Utiliser une API pour un compte utilisateur bancaire avec React",
@@ -172,7 +172,7 @@
     {
         "id": 11,
         "period": "Décembre 2021",
-        "gitUrl": "https://github.com/GitDrinou/SandrineBrival_14_20211112.git",
+        "urlRepo": "https://github.com/GitDrinou/SandrineBrival_14_20211112.git",
         "title": "HRNet",
         "resume":"Passage d'une librairie jQuery vers React, utilisation d'une API et de Redux",
         "goal": "Faire passer une librairie jQuery vers React",
@@ -189,7 +189,7 @@
     {
         "id": 12,
         "period": "Janvier 2022",
-        "gitUrl": "https://github.com/GitDrinou/FM-Tip-Calculator-React-App.git",
+        "urlRepo": "https://github.com/GitDrinou/FM-Tip-Calculator-React-App.git",
         "title": "Tip Calculator",
         "resume":"Tip calculator app challenge on Frontend Mentor",
         "goal": "Relever le challenge de Frontend Mentor",
@@ -202,5 +202,22 @@
         "image_Projet":"tipCAlculator.webp",
         "from": "frontendmentor.webp",
         "from_label": "Frontend_Mentor"
+    },
+    {
+        "id": 13,
+        "period": "Novembre 2023",
+        "urlRepo": "https://github.com/GitDrinou/Taskmate.git",
+        "title": "Taskmate",
+        "resume":"Gestionnaire de tâches",
+        "goal": "On reprend les révisions sur React après plus d'un an sans y toucher.",
+        "scenario": "Suivre un cours O'Reilly en ligne du débutant au professionnel. Ceci est le premier projet du cours. On commence petit pour arriver à une application web plus dynamique avec des APIs.",
+        "ressources" :  ["Fichier CSS"],
+        "contraintes" : [],
+        "compétences": ["Pratiquer la librairie React"],
+        "langages": ["react","js","html","css"],
+        "image_Portfolio": "checklist-3693113_640.webp",
+        "image_Projet":"taskmate.webp",
+        "from": "oReilly.webp",
+        "from_label": "O'Reilly"
     }
 ]

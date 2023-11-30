@@ -66,7 +66,7 @@ function displayProjects(obj) {
                                 <button class="btn btn-sm btn-outline-secondary me-2" onClick="setModal(${project.id})">
                                     Détails du projet
                                 </button>
-                                <a href="${project.gitUrl}" rel="noopener" target="_blank" class="text-dark">
+                                <a href="${project.urlRepo}" rel="noopener" target="_blank" class="text-dark">
                                     <button class="btn btn-sm btn-outline-secondary me-2">
                                         Code Source
                                     </button>
