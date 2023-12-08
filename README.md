@@ -5,4 +5,4 @@ You will have more details about me, some of my hard skills and you can also con
 
 Hope you'll enjoy this site.
 
-Let's go : [Mon Portfolio](https://gitdrinou.netlify.app/)
+Let's go : [Mon Portfolio](https://gitdrinou.netlify.app/≥)

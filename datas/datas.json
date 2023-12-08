@@ -208,7 +208,7 @@
         "period": "Novembre 2023",
         "urlRepo": "https://github.com/GitDrinou/Taskmate.git",
         "title": "Taskmate",
-        "resume":"Gestionnaire de tâches",
+        "resume":"Gestionnaire de tâches avec un cours en ligne O'Reilly",
         "goal": "On reprend les révisions sur React après plus d'un an sans y toucher.",
         "scenario": "Suivre un cours O'Reilly en ligne du débutant au professionnel. Ceci est le premier projet du cours. On commence petit pour arriver à une application web plus dynamique avec des APIs.",
         "ressources" :  ["Fichier CSS"],
@@ -217,7 +217,7 @@
         "langages": ["react","js","html","css"],
         "image_Portfolio": "checklist-3693113_640.webp",
         "image_Projet":"taskmate.webp",
-        "from": "oReilly.webp",
+        "from": "oreilly.webp",
         "from_label": "O'Reilly"
     },
     {
@@ -231,7 +231,7 @@
         "ressources" :  [""],
         "contraintes" : [],
         "compétences": ["Pratiquer la librairie React, connexioon à une API, style avec Tailwind"],
-        "langages": ["react","js","html","css"],
+        "langages": ["react","js","html","tailwind"],
         "image_Portfolio": "movie-4152982_1280.webp",
         "image_Projet":"cinelib.webp",
         "from": "oReilly.webp",
