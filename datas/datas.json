@@ -219,5 +219,22 @@
         "image_Projet":"taskmate.webp",
         "from": "oReilly.webp",
         "from_label": "O'Reilly"
+    },
+    {
+        "id": 13,
+        "period": "Décembre 2023",
+        "urlRepo": "https://github.com/GitDrinou/cinema-lib.git",
+        "title": "Cinelib",
+        "resume":"Librairie de films via IMDB API",
+        "goal": "On reprend les révisions sur React après plus d'un an sans y toucher. Etape 2 : React Router et Tailwind CSS",
+        "scenario": "Suivre un cours O'Reilly en ligne du débutant au professionnel. Deuxième projet, où on joue avec les routers et de la donnée via l'API IMDB. Sans oublier de découvrir l'utilisation et manipulation de Tailwind.",
+        "ressources" :  [""],
+        "contraintes" : [],
+        "compétences": ["Pratiquer la librairie React, connexioon à une API, style avec Tailwind"],
+        "langages": ["react","js","html","css"],
+        "image_Portfolio": "movie-4152982_1280.webp",
+        "image_Projet":"cinelib.webp",
+        "from": "oReilly.webp",
+        "from_label": "O'Reilly"
     }
 ]

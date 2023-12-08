@@ -39,8 +39,6 @@ typewriter
 
 
 
-/** Contact Form */
-
 frmContact.addEventListener('submit',(e) => {
     e.preventDefault()
 

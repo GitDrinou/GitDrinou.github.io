@@ -82,6 +82,12 @@
         "label" : "Flutter",
         "level" : 4,
         "logo" : "flutter.webp"
+    },
+    {
+        "id" : 15,
+        "label" : "Tailwind CSS",
+        "level" : 3,
+        "logo" : "tailwind.webp"
     }
 ]
     
