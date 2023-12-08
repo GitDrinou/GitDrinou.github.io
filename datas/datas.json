@@ -225,7 +225,7 @@
         "period": "Décembre 2023",
         "urlRepo": "https://github.com/GitDrinou/cinema-lib.git",
         "title": "Cinelib",
-        "resume":"Librairie de films via IMDB API",
+        "resume":"Librairie de films via IMDB API en suivant un cours en ligne O'Reilly",
         "goal": "On reprend les révisions sur React après plus d'un an sans y toucher. Etape 2 : React Router et Tailwind CSS",
         "scenario": "Suivre un cours O'Reilly en ligne du débutant au professionnel. Deuxième projet, où on joue avec les routers et de la donnée via l'API IMDB. Sans oublier de découvrir l'utilisation et manipulation de Tailwind.",
         "ressources" :  [""],
