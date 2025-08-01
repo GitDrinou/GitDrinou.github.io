@@ -81,6 +81,7 @@ body {
 .cercle-portrait > img {
   width: 250px;
   height: auto;
+  border-radius: 50%;
 }
 
 .presentation {
