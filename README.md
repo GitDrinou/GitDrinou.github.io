@@ -1,8 +1,13 @@
-# Mon Portfolio
+# Portfolio
 
-This site displaying all projects.
-You will have more details about me, some of my hard skills and you can also contact me for works or anything else
+## Version
+1.7.0.3
+
+## Overview
+
+This site displaying all projects that I have realized along my working life.
+Most of them have been realized during my trainings at OpenClassrooms (DA ReactJS and DA Python).
 
 Hope you'll enjoy this site.
 
-Let's go : [Mon Portfolio](https://gitdrinou.netlify.app/)
+Let's go : [Portfolio](https://gitdrinou.netlify.app/)
