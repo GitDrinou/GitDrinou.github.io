@@ -2,9 +2,10 @@
 
 :root {
     --color-dark: #1a1b1f;
-    --color-grey: #9CAFAA;
+    --color-green-dark: #1E5128;
+    --color-green: #4E9F3D;
+    --color-green-light: #D8E9A8;
     --color-white: #EEEEEE;
-    --color-blue: #434E78;
 }
 
 * {
@@ -43,30 +44,40 @@ hr {
 }
 
 nav {
-    .nav_links {
-        padding: 0;
-        list-style: none;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
-        text-align: center;
-        li {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: var(--color-grey);
-            border-radius: 5%;
-            padding: 16px 0 16px 0;
-            width: 100%;
-            img {
-                width: auto;
-                height: 64px;
-            }
-            span {
-                padding-top: 12px;
-                font-size: 1rem;
-                color: var(--color-dark);
-            }
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+    text-align: center;
+    a {
+        background-color: var(--color-green);
+        border-radius: 5%;
+        padding: 16px 0 16px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--color-dark);
+        font-weight: bold;
+        cursor: pointer;
+        text-transform: uppercase;
+        img {
+            width: auto;
+            height: 64px;
+        }
+        span {
+            padding-top: 12px;
+            font-size: 1rem;
+            color: var(--color-dark);
+        }
+    }
+    a:hover {
+        background-color: var(--color-green-light);
+        color: var(--color-dark);
+        text-decoration: none;
+        span {
+            color: var(--color-dark);
         }
     }
 }
@@ -86,7 +97,7 @@ footer {
     text-align: center;
     ul {
         width: 100%;
-        background-color: var(--color-blue);
+        background-color: var(--color-green-dark);
         border-radius: 5%;
         list-style: none;
         padding: 8px 0 10px 0;
