@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-dark: #1a1b1f;
+    --color-grey: #9CAFAA;
+    --color-white: #EEEEEE;
+    --color-blue: #434E78;
+}
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    border: 1px solid var(--color-white);
+    padding: 24px;
+    background-color: var(--color-dark);
+    max-width: 456px;
+    color: var(--color-white);
+}
+
+h1 {
+    font-family: "Doto", Aria, sans-serif;
+    font-size: 3.5rem;
+    color: var(--color-white);
+}
+
+.header-img {
+    border-radius: 5%;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+hr {
+    margin: 8px 0;
+    border: 1px dashed var(--color-white);
+}
+
+nav {
+    .nav_links {
+        padding: 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        text-align: center;
+        li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: var(--color-grey);
+            border-radius: 5%;
+            padding: 16px 0 16px 0;
+            width: 100%;
+            img {
+                width: auto;
+                height: 64px;
+            }
+            span {
+                padding-top: 12px;
+                font-size: 1rem;
+                color: var(--color-dark);
+            }
+        }
+    }
+}
+
+
+.bloc-resume {
+    padding: 24px 0;
+    h2 {
+        font-size: 2rem;
+    }
+    p {
+        text-align: justify;
+    }
+}
+
+footer {
+    text-align: center;
+    ul {
+        width: 100%;
+        background-color: var(--color-blue);
+        border-radius: 5%;
+        list-style: none;
+        padding: 8px 0 10px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        align-items: center;
+        li {
+            width: 24px;
+            height: auto;
+        }
+    }
+    p {
+        padding-top: 24px;
+        color: var(--color-white);
+        font-size: 0.8rem;
+    }
+}
