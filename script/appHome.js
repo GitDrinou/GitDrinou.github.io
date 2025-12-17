@@ -28,13 +28,13 @@ typewriter
     .changeDelay(20)
     .typeString('Moi c\'est Sandrine')
     .pauseFor(300)
-    .typeString('<strong>, Développeuse HTML / CSS</strong> !')
+    .typeString('<strong>, Développeuse HTML / CSS / JS</strong> !')
     .pauseFor(1000)
     .deleteChars(13)
-    .typeString('<span style="color: #27ae60;"> JavaScript</span> !')
+    .typeString('<span style="color: orange"> ReactJS</span> !')
     .pauseFor(1000)
     .deleteChars(13)
-    .typeString('<span style="color: orange"> React</span> !')
+    .typeString('<span style="color: #27ae60;"> Python 🐍</span> !')
     .start()
 
 
