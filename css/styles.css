@@ -19,7 +19,6 @@ html {
 }
 
 body {
-    border: 1px solid var(--color-white);
     padding: 24px;
     background-color: var(--color-dark);
     max-width: 456px;
@@ -35,7 +34,7 @@ h1 {
 .header-img {
     border-radius: 5%;
     width: 100%;
-    padding: 2rem 0;
+    padding: 2rem 0 1rem 0;
 }
 
 hr {
@@ -47,7 +46,7 @@ nav {
     padding: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.5rem;
     text-align: center;
     a {
@@ -62,9 +61,10 @@ nav {
         font-weight: bold;
         cursor: pointer;
         text-transform: uppercase;
-        img {
-            width: auto;
-            height: 64px;
+        text-decoration: none;
+        svg {
+            width: 42px;
+            height: 42px;
         }
         span {
             padding-top: 12px;
@@ -72,6 +72,7 @@ nav {
             color: var(--color-dark);
         }
     }
+    .active-link,
     a:hover {
         background-color: var(--color-green-light);
         color: var(--color-dark);
@@ -81,7 +82,6 @@ nav {
         }
     }
 }
-
 
 .bloc-resume {
     padding: 24px 0;
@@ -94,6 +94,7 @@ nav {
 }
 
 footer {
+    margin-top: 24px;
     text-align: center;
     ul {
         width: 100%;
@@ -105,14 +106,76 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1rem;
         align-items: center;
-        li {
-            width: 24px;
-            height: auto;
+        li svg {
+            width: 32px;
+            height: 32px;
         }
     }
     p {
         padding-top: 24px;
         color: var(--color-white);
         font-size: 0.8rem;
+    }
+}
+
+#projectCards {
+   width: 100%;
+    article {
+        margin-top: 16px;
+        border: 1px dashed var(--color-white);
+        padding: 12px;
+        border-radius: 8px;
+
+        h2, p, a {
+            padding-bottom: 16px;
+        }
+        img {
+            width: 100%;
+            border-radius: 5%;
+            padding-bottom: 16px;
+        }
+        p {
+            height: 60px;
+        }
+        a {
+            display: block;
+            background-color: var(--color-green);
+            color: var(--color-dark);
+            padding: 8px;
+            border-radius: 5%;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+        }
+        a:hover {
+            background-color: var(--color-green-light);
+        }
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 788px;
+    }
+    nav {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #projectCards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        max-width: 1054px;
+    }
+
+    #projectCards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
