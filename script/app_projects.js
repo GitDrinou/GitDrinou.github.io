@@ -7,19 +7,15 @@
 
 const requestURL = "../datas/datas.json"
 const projectCard = document.getElementById('projectCards')
+const projectDetail = document.getElementById('projectDetails')
 
 let allProjects =  []
-
-/**
- * FETCH
- * ------------------------------------------------------------
-*/
 
 fetch(requestURL)
     .then((resp) => {
         if (resp.ok) {
-            resp.json().then((datas) => { 
-                displayProjects(datas)                               
+            resp.json().then((data) => {
+                displayProjects(data)
             })
         }
         else {
@@ -28,12 +24,7 @@ fetch(requestURL)
     });
 
 
-/**
- * Function displayProjects
- * @param {object} obj list of all projects datas
- */
-function displayProjects(obj) {
-
+const displayProjects = (obj) => {
     let myProjects = obj.reverse()
     for(let project of myProjects) {
         allProjects.push(project)
@@ -42,9 +33,8 @@ function displayProjects(obj) {
                 <h2 class="project-title">${project.title}</h2>
                 <img src="../resources/${project.illustration}" alt="card image" class="card-img-top">
                 <p>${project.resume}</p>
-                <a href="#">Voir le détail</a>
+                <a href="projet.html?id=${project.id}">Voir le détail</a>
             </article>
         `
     }
-
 }
