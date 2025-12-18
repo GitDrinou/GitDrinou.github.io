@@ -7,19 +7,104 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-<header>
-    <h1>Page PROJETS</h1>
-    <nav>
-        <a href="../index.html">
-            <img src="../resources/picto-home.png" alt="Retour à la page d'accueil">
-        </a>
-        <a href="parcours.html">
-            <img src="../resources/picto-road.png" alt="Accès à la rubrique 'Parcours'">
-        </a>
-        <a href="pcompetences.html">
-            <img src="../resources/picto-skills.png" alt="Accès à la rubrique 'Competences'">
-        </a>
-    </nav>
-</header>
+    <header>
+        <h1>Projets</h1>
+        <h2>Portfolio de Sandrine Brival</h2>
+        <img class="header-img" src="../resources/project_header.png" alt="">
+        <hr>
+        <nav>
+            <a href="../index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                     fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-labelledby="title-accueil">
+                    <title id="title-accueil">Accueil</title>
+                    <path d="M4 14L16 4l12 10"/>
+                    <path d="M6 12v16h20V12"/>
+                    <path d="M12 28V18h8v10"/>
+                </svg>
+            </a>
+            <a href="parcours.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                     fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-labelledby="title-parcours">
+                    <title id="title-parcours">Parcours</title>
+                    <path d="M6 26c6-12 14-12 20-20"/>
+                    <circle cx="6" cy="26" r="2"/>
+                    <circle cx="14" cy="18" r="2"/>
+                    <circle cx="22" cy="10" r="2"/>
+                </svg>
+            </a>
+            <a href="competences.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                     fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-labelledby="title-competences">
+                    <title id="title-competences">Compétences</title>
+                    <circle cx="13" cy="19" r="5"/>
+                    <path d="M13 10v-3M13 31v-3M4 19h-3M22 19h-3"/>
+                    <path d="M18 14l8-8"/>
+                    <circle cx="26" cy="6" r="2"/>
+                </svg>
+            </a>
+            <a href="projets.html" class="active-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                     fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-labelledby="title-projets">
+                    <title id="title-projets">Projets</title>
+                    <rect x="2" y="4" width="28" height="18" rx="2"/>
+                    <path d="M6 10h8M6 14h12M6 18h6"/>
+                    <path d="M12 24h8"/>
+                </svg>
+            </a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section id="projectCards"></section>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="mailto:contact.gitDrinou@gmail.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                         fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         aria-labelledby="title-mail">
+                        <title id="title-mail">Mail</title>
+                        <rect x="4" y="6" width="24" height="20" rx="2"/>
+                        <path d="M4 8l12 9 12-9"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/sandrine-brival/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                         fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         aria-labelledby="title-linkedin">
+                        <title id="title-linkedin">Linkedin</title>
+                        <circle cx="7" cy="7" r="1.5"/>
+                        <path d="M6 12v14"/>
+                        <path d="M14 12v14"/>
+                        <path d="M14 16c0-2 6-2 6 0v10"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/GitDrinou" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                         fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         aria-labelledby="title-github">
+                        <title id="title-github">Github</title>
+                        <circle cx="10" cy="8" r="2"/>
+                        <circle cx="10" cy="24" r="2"/>
+                        <circle cx="22" cy="16" r="2"/>
+                        <path d="M10 10v12M10 16h12"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        <p>
+            @Tout droits réservés<br>Version: 2.0 par Sandrine BRIVAL / @GitDrinou
+        </p>
+    </footer>
+    <script src="../script/app_projects.js"></script>
 </body>
 </html>
