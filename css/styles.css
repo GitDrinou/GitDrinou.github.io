@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-dark: #1a1b1f;
+    --color-green-dark: #1E5128;
+    --color-green: #4E9F3D;
+    --color-green-light: #D8E9A8;
+    --color-white: #EEEEEE;
+}
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 24px;
+    background-color: var(--color-dark);
+    max-width: 456px;
+    color: var(--color-white);
+}
+
+h1 {
+    font-family: "Doto", Aria, sans-serif;
+    font-size: 3.5rem;
+    color: var(--color-white);
+}
+
+.header-img {
+    border-radius: 5%;
+    width: 100%;
+    padding: 2rem 0 1rem 0;
+}
+
+hr {
+    margin: 8px 0;
+    border: 1px dashed var(--color-white);
+}
+
+nav {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+    text-align: center;
+    a {
+        background-color: var(--color-green);
+        border-radius: 5%;
+        padding: 16px 0 16px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--color-dark);
+        font-weight: bold;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-decoration: none;
+        svg {
+            width: 42px;
+            height: 42px;
+        }
+        span {
+            padding-top: 12px;
+            font-size: 1rem;
+            color: var(--color-dark);
+        }
+    }
+    .active-link,
+    a:hover {
+        background-color: var(--color-green-light);
+        color: var(--color-dark);
+        text-decoration: none;
+        span {
+            color: var(--color-dark);
+        }
+    }
+}
+
+.bloc-resume {
+    padding: 24px 0;
+    h2 {
+        font-size: 2rem;
+    }
+    p {
+        text-align: justify;
+    }
+}
+
+footer {
+    margin-top: 42px;
+    text-align: center;
+    ul {
+        width: 100%;
+        background-color: var(--color-green-dark);
+        border-radius: 5%;
+        list-style: none;
+        padding: 8px 0 10px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        align-items: center;
+        li svg {
+            width: 32px;
+            height: 32px;
+        }
+    }
+    p {
+        padding-top: 24px;
+        color: var(--color-white);
+        font-size: 0.8rem;
+    }
+}
+
+#projectCards {
+   width: 100%;
+    article {
+        margin-top: 16px;
+        border: 1px dashed var(--color-white);
+        padding: 12px;
+        border-radius: 8px;
+
+        h2, p, a {
+            padding-bottom: 16px;
+        }
+        img {
+            width: 100%;
+            border-radius: 5%;
+            padding-bottom: 16px;
+        }
+        p {
+            height: 60px;
+        }
+        a {
+            display: block;
+            background-color: var(--color-green);
+            color: var(--color-dark);
+            padding: 8px;
+            border-radius: 5%;
+            text-align: center;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: var(--color-green-light);
+        }
+    }
+}
+
+.btn-back {
+    margin-top: 24px;
+    background-color: var(--color-green);
+    color: var(--color-dark);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid var(--color-green);
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border-radius: 5%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-back:hover {
+    background-color: var(--color-green-light);
+}
+
+#projectDetails {
+    text-align: justify;
+    p{
+        margin-top: 0.5rem;
+        span {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            svg {
+                fill: var(--color-green);
+            }
+        }
+        img {
+            width: 24px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 788px;
+    }
+    nav {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #projectCards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        max-width: 1054px;
+    }
+
+    #projectCards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

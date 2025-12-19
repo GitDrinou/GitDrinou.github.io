@@ -1,6 +1,4 @@
-,idea/
+.idea/
 .vscode/
 node_modules/
-package-lock.json
-resources/.DS_Store/
 .DS_Store

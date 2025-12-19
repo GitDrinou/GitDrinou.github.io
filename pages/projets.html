@@ -1,18 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
-    <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/48/000000/bookmark-ribbon.png"/>
-    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio de Sandrine Brival | Projets</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Portfolio de Sandrine Brival</h1>
-        <img class="header-img" src="./resources/homepage_header.webp" alt="">
+        <h1>Projets</h1>
+        <h2>Portfolio de Sandrine Brival</h2>
+        <img class="header-img" src="../resources/projects_header.png" alt="">
         <nav>
-            <a href="#" class="active-link">
+            <a href="../index.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                      fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                      aria-labelledby="title-accueil">
@@ -21,9 +21,8 @@
                     <path d="M6 12v16h20V12"/>
                     <path d="M12 28V18h8v10"/>
                 </svg>
-                <span>Accueil</span>
             </a>
-            <a href="./pages/parcours.html">
+            <a href="parcours.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                      fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                      aria-labelledby="title-parcours">
@@ -33,9 +32,8 @@
                     <circle cx="14" cy="18" r="2"/>
                     <circle cx="22" cy="10" r="2"/>
                 </svg>
-                <span>Parcours</span>
             </a>
-            <a href="./pages/competences.html">
+            <a href="competences.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                      fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                      aria-labelledby="title-competences">
@@ -45,9 +43,8 @@
                     <path d="M18 14l8-8"/>
                     <circle cx="26" cy="6" r="2"/>
                 </svg>
-                <span>Compétences</span>
             </a>
-            <a href="./pages/projets.html">
+            <a href="projets.html" class="active-link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                      fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                      aria-labelledby="title-projets">
@@ -56,54 +53,12 @@
                     <path d="M6 10h8M6 14h12M6 18h6"/>
                     <path d="M12 24h8"/>
                 </svg>
-                <span>Projets</span>
             </a>
         </nav>
         <hr>
     </header>
     <main>
-        <section class="bloc-resume">
-            <h2>En résumé</h2>
-            <p>Je suis développeuse d'application web depuis plusieurs années.</p>
-            <p>Par l'intermédiaire de parcours de formation en ligne via OpenClassrooms, j'ai pu valider des compétences
-                en développement d'interfaces utilisateur avec HTML, CSS et vanilla JS, et en acquérir de nouvelles avec
-                ReactJS et plus récemment Python.</p>
-            <p>Pour en savoir plus sur mon parcours professionnel, mes compétences et les projets que j'ai réalisé, je
-                vous invite à naviguter dans les différentes rubriques de ce portfolio.</p>
-            <p>Bonne visite et au plaisir d'échanger avec vous, et pour cela, n'hésitez pas à me contacter par Linkedin
-                ou par mail.</p>
-        </section>
-        <!--<section>
-            <h2>Mes compétences</h2>
-            <hr>
-            <p>Langage de programmation</p>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Sass</li>
-                <li>Javascript</li>
-                <li>Typescript</li>
-                <li>React / Redux</li>
-                <li>Python</li>
-                <li>Flutter / Dart</li>
-            </ul>
-            <p>Méthodologie / Modèle de conception</p>
-            <ul>
-                <li>Méthode Agile</li>
-                <li>Analyse de besoin client (diagramme de classe, user stories, ...)</li>
-                <li>Pattern MVC</li>
-            </ul>
-            <p>Versionning</p>
-            <ul>
-                <li>GitLab</li>
-                <li>GitHub</li>
-            </ul>
-            <p>Base de données</p>
-            <ul>
-                <li>PostgresSQL</li>
-                <li>Oracle</li>
-            </ul>
-        </section>-->
+        <section id="projectCards"></section>
     </main>
     <footer>
         <ul>
@@ -149,5 +104,6 @@
             @Tout droits réservés<br>Version: 2.0 par Sandrine BRIVAL / @GitDrinou
         </p>
     </footer>
+    <script src="../script/app_projects.js"></script>
 </body>
 </html>
