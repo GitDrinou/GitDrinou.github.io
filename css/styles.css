@@ -23,6 +23,7 @@ body {
     background-color: var(--color-dark);
     max-width: 456px;
     color: var(--color-white);
+    font-size: 1.2rem;
 }
 
 h1 {
@@ -90,6 +91,7 @@ nav {
     }
     p {
         text-align: justify;
+        line-height: 2rem;
     }
 }
 
@@ -125,7 +127,6 @@ footer {
         border: 1px dashed var(--color-white);
         padding: 12px;
         border-radius: 8px;
-
         h2, p, a {
             padding-bottom: 16px;
         }
@@ -135,7 +136,7 @@ footer {
             padding-bottom: 16px;
         }
         p {
-            height: 60px;
+            height: 80px;
         }
         a {
             display: block;
@@ -165,14 +166,23 @@ footer {
     border-radius: 5%;
     cursor: pointer;
     font-weight: bold;
+    font-size: 1.2rem;
 }
+
 .btn-back:hover {
     background-color: var(--color-green-light);
 }
 
 #projectDetails {
-    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.25rem;
+    align-items: start;
     p{
+        border-bottom: 1px solid var(--color-white);
+        line-height: 1.5rem;
+        height: 100%;
+        width: 100%;
         margin-top: 0.5rem;
         span {
             display: inline-flex;
@@ -185,6 +195,19 @@ footer {
         img {
             width: 24px;
         }
+    }
+    .details-bloc-text {
+        text-align: justify;
+    }
+    .details-bloc-list {
+        text-align: left;
+    }
+    .details-repo-link {
+        background-color: var(--color-green);
+        color: var(--color-dark);
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border-radius: 8%;
     }
 }
 
@@ -200,6 +223,10 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1rem;
+    }
+
+    #projectDetails {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 

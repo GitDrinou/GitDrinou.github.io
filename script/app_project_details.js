@@ -36,25 +36,35 @@ window.addEventListener('DOMContentLoaded', async () => {
 })
 
 const displayProjectDetail = (projectId)=> {
-    let languagesBloc = ``
     const myProject = allProjects.find((el) => el.id === parseInt(projectId))
-    for(let item in myProject.languages) {
-            languagesBloc += `* ${myProject.languages[item]}<br>`
-    }
+    let languagesBloc = myProject["languages"].map(item => `. ${item}<br>`).join('');
+    let resourcesBloc = myProject["resources"].map(item => `. ${item}<br>`).join('');
+    let constraintsBloc = myProject["contraintes"].map(item => `. ${item}<br>`).join('');
+    let skillsBloc = myProject["competences"].map(item => `. ${item}<br>`).join('');
+
     document.title = `Portfolio de Sandrine Brival | Projets | Détail projet: ${myProject["title"]}`
     document.getElementById('project_title').innerHTML = `Projet: ${myProject["title"]}`
     document.getElementById('project_detail_img').src = `../resources/projets/${myProject["screenshot"]}`
     projectDetail.innerHTML = `
-        <p>
+        <p class="details-bloc-text">
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
-                  <rect x="2" y="2" width="12" height="12"/>
+                    <rect x="2" y="2" width="12" height="12"/>
+                </svg>
+                DATE DE RÉALISATION:
+            </span>
+             <br>${myProject["period"]}
+        </p>
+        <p class="details-bloc-text">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                    <rect x="2" y="2" width="12" height="12"/>
                 </svg>
                 OBJECTIF:
             </span>
              <br>${myProject["goal"]}
         </p>
-        <p>
+        <p class="details-bloc-text">
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
                   <rect x="2" y="2" width="12" height="12"/>
@@ -62,13 +72,47 @@ const displayProjectDetail = (projectId)=> {
                 SCÉNARIO:
             </span>
         <br>${myProject["scenario"]}</p>
-        <p>
+        <p class="details-bloc-list">
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
                   <rect x="2" y="2" width="12" height="12"/>
                 </svg>
-                LANGAGES & OUTILS:
+                RESSOURCES:
+            </span>
+        <br>${resourcesBloc}</p>
+        <p class="details-bloc-list">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                  <rect x="2" y="2" width="12" height="12"/>
+                </svg>
+                CONTRAINTES:
+            </span>
+        <br>${constraintsBloc}</p>
+        <p class="details-bloc-list">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                  <rect x="2" y="2" width="12" height="12"/>
+                </svg>
+                COMPÉTENCES:
+            </span>
+        <br>${skillsBloc}</p>
+        <p class="details-bloc-list">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                  <rect x="2" y="2" width="12" height="12"/>
+                </svg>
+                LANGAGES, OUTILS & MÉTHODES UTILISÉS:
             </span>
         <br>${languagesBloc}</p>
+        <p class="details-bloc-text">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                  <rect x="2" y="2" width="12" height="12"/>
+                </svg>
+                REPO GITHUB:
+            </span>
+            <br><br>
+            <a href="${myProject["urlRepo"]}" target="_blank" class="details-repo-link">Voir le repo</a>
+        </p>
     `
 }
