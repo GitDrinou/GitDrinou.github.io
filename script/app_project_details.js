@@ -51,9 +51,9 @@ const displayProjectDetail = (projectId)=> {
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
                     <rect x="2" y="2" width="12" height="12"/>
                 </svg>
-                DATE DE RÉALISATION:
+                POUR / DATE DE RÉALISATION:
             </span>
-             <br>${myProject["period"]}
+             <br>${myProject["from_label"]} / ${myProject["period"]})
         </p>
         <p class="details-bloc-text">
             <span>

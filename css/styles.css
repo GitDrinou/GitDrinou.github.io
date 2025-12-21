@@ -211,10 +211,34 @@ footer {
     }
 }
 
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    section {
+        .skills-header {
+            border-bottom: 1px solid var(--color-green-dark);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem;
+            margin-bottom: 1.5rem;
+            svg {
+                width: 96px;
+                height: 96px;
+                color: var(--color-green);
+            }
+        }
+        ul {
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
 @media screen and (min-width: 768px) {
     body {
         max-width: 788px;
     }
+
     nav {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -223,6 +247,10 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1rem;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #projectDetails {
