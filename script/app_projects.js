@@ -5,7 +5,7 @@
  * -------------------------------------------------------------------------
 */
 
-const requestURL = "../datas/datas.json"
+const requestURL = "../datas/projects_datas.json"
 const projectCard = document.getElementById('projectCards')
 const projectDetail = document.getElementById('projectDetails')
 

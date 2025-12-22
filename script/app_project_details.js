@@ -5,7 +5,7 @@
  * -------------------------------------------------------------------------
 */
 
-const requestURL = "../datas/datas.json"
+const requestURL = "../datas/projects_datas.json"
 const projectDetail = document.getElementById('projectDetails')
 
 let allProjects =  []
@@ -45,6 +45,22 @@ const displayProjectDetail = (projectId)=> {
     document.title = `Portfolio de Sandrine Brival | Projets | Détail projet: ${myProject["title"]}`
     document.getElementById('project_title').innerHTML = `Projet: ${myProject["title"]}`
     document.getElementById('project_detail_img').src = `../resources/projets/${myProject["screenshot"]}`
+
+    let labelTitleSource = myProject["repo"] === 1 ? "REPO GITHUB" : "LIEN SOURCE"
+    let labelButtonSource = myProject["repo"] === 1 ? "Voir le repo" : "Voir la source"
+    let display_repo = myProject["url"]
+        ? `<p class="details-bloc-text">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                  <rect x="2" y="2" width="12" height="12"/>
+                </svg>
+                ${labelTitleSource}:
+            </span>
+            <br><br>
+            <a href="${myProject["url"]}" target="_blank" class="details-repo-link">${labelButtonSource}</a>
+            </p>`
+        : ""
+
     projectDetail.innerHTML = `
         <p class="details-bloc-text">
             <span>
@@ -104,15 +120,6 @@ const displayProjectDetail = (projectId)=> {
                 LANGAGES, OUTILS & MÉTHODES UTILISÉS:
             </span>
         <br>${languagesBloc}</p>
-        <p class="details-bloc-text">
-            <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
-                  <rect x="2" y="2" width="12" height="12"/>
-                </svg>
-                REPO GITHUB:
-            </span>
-            <br><br>
-            <a href="${myProject["urlRepo"]}" target="_blank" class="details-repo-link">Voir le repo</a>
-        </p>
+        ${display_repo}
     `
 }
