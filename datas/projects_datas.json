@@ -102,7 +102,7 @@
         "from_label": "OpenClassrooms"
     },
     {
-        "id": 8,
+        "id": 7,
         "period": "Août 2021",
         "repo": 1,
         "url": "https://github.com/GitDrinou/SandrineBrival_11_30072021.git",
@@ -119,7 +119,7 @@
         "from_label": "OpenClassrooms"
     },
     {
-        "id": 13,
+        "id": 8,
         "period": "Juillet 2025",
         "repo": 1,
         "url": "https://github.com/GitDrinou/DAPython_P02_Task_Task_Automation.git",
@@ -136,7 +136,7 @@
         "from_label": "OpenClassrooms"
     },
     {
-        "id": 14,
+        "id": 9,
         "period": "Août 2025",
         "repo": 0,
         "url": "https://wax-enemy-cd2.notion.site/23efbb1a73cd8066b899e5d9498ac26b?v=23efbb1a73cd81efaf22000cddad1cb2",
@@ -154,7 +154,7 @@
         "from_label": "OpenClassrooms"
     },
     {
-        "id": 15,
+        "id": 10,
         "period": "Octobre 2025",
         "repo": 1,
         "url": "https://github.com/GitDrinou/DAPython_P04_Chess_Tournament.git",
@@ -172,7 +172,7 @@
         "from_label": "OpenClassrooms"
     },
     {
-        "id": 16,
+        "id": 11,
         "period": "Novembre 2025",
         "repo": 1,
         "url": "https://github.com/GitDrinou/DAPython_P06_Just_Stream_It.git",
@@ -186,6 +186,23 @@
         "languages": ["HTML","CSS", "Javascript", "Figma"],
         "illustration": "img_streamit.png",
         "screenshot":"justStreamIt.webp",
+        "from_label": "OpenClassrooms"
+    },
+    {
+        "id": 12,
+        "period": "Janvier 2026",
+        "repo": 1,
+        "url": "https://github.com/GitDrinou/DA_Python_P09_LITRevu.git",
+        "title": "LitRevu",
+        "resume":"Développer une application en utilisant le framework Django",
+        "goal": "Développer le MVP d'une application avec le framework Django, permettant de regrouper des critiques de livres ou d'articles littéraire pour une communauté d'utilisateurs.",
+        "scenario": "L'objectif de LITRevu est de commercialiser un produit permettant à une communauté d'utilisateurs de publier des critiques de livres ou d'articles et de consulter ou solliciter une critique de livre à la demande. Trois cas d'utilisation principaux: publication de critique de livres ou d'articles, demande de critique sur un livre ou sur un article particulier, recherche d'articles ou de livres intéressants à lire, se basant sur les critiques des autres utilisateurs",
+        "resources":  ["Cahier des charges", "Wireframesa"],
+        "contraintes" : ["Standard PEP8", "Accessibilité (WCAG)"],
+        "competences": ["Développement d'une application avec Django", "Utilisation du côté server de Django"],
+        "languages": ["Django","Template HTML", "CSS"],
+        "illustration": "img_litrevu.png",
+        "screenshot":"LitRevu.webp",
         "from_label": "OpenClassrooms"
     }
 ]
