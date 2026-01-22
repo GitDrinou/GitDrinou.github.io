@@ -44,7 +44,7 @@ const displayProjectDetail = (projectId)=> {
 
     document.title = `Portfolio de Sandrine Brival | Projets | Détail projet: ${myProject["title"]}`
     document.getElementById('project_title').innerHTML = `Projet: ${myProject["title"]}`
-    document.getElementById('project_detail_img').src = `../resources/projets/${myProject["screenshot"]}`
+    document.getElementById('project_detail_img').src = `../images/projets/screenshots/${myProject["screenshot"]}`
 
     let labelTitleSource = myProject["repo"] === 1 ? "REPO GITHUB" : "LIEN SOURCE"
     let labelButtonSource = myProject["repo"] === 1 ? "Voir le repo" : "Voir la source"

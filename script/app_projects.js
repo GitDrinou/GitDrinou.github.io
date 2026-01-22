@@ -31,7 +31,7 @@ const displayProjects = (obj) => {
         projectCard.innerHTML += `
             <article>
                 <h2 class="project-title">${project.title}</h2>
-                <img src="../resources/${project["illustration"]}" alt="card image" class="card-img-top">
+                <img src="../images/projets/illustrations/${project["illustration"]}" alt="card image" class="card-img-top">
                 <p>${project.resume}</p>
                 <a href="projet_details.html?id=${project.id}">Voir le détail</a>
             </article>
