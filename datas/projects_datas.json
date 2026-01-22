@@ -9,9 +9,11 @@
         "goal": "Transformer une maquette en site web",
         "scenario": "Enfin vous avez trouvé votre premier stage en tant que développeur web chez Reservia, une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance. Un nouveau design basé sur les principes du Material Design vient d'être proposé par Loïc, designer UI. Avant de valider définitivement ce design l'entreprise décide de réaliser un prototype. La première étape consiste à intégrer la maquette responsive en HTML et CSS. Voici donc la tâche qui vous est attribué ! Loïc vous envoie un mail pour vous en dire plus, en mettant en copie votre manager, Sarah, qui est CTO de l'entreprise.",
         "resources":  ["Maquettes desktop et mobile du site Reservia (PNG)", "Photographies (JPG)", "Logo (SVG)"],
-        "contraintes" : ["Le site devra être adapté pour desktop, mobiles et tablettes. Pour les tablettes, adaptations libre.", "Choix du format d'image le plus adapté par rapport à la résolution et aut temps de chargement.", "Les icônes proviennent de la bibliothèque FONT AWESOME.", "Couleurs de la charte graphique : bleu #0065FC, bleu clair #DEEBFF, gris #F2F2F2", "La police du site est RALEWAY", "Ne pas utiliser de framework ou pré-compilateur CSS (comme SASS, par exemple)", "Utilisation de Flexbox ou CSS Grid", "Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS", "Site compatible avec les dernières versions de Chrome et Firefox", "Séparer le code HTML du CSS"],
-        "competences": ["Intégrer du contenu conformément à une maquette", "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement", "Mettre en place un environnement Front-End", "Implémenter une interface responsive"],
-        "languages": ["HTML","CSS", "VSCode"],
+        "contraintes" : ["Développement responsive (mobile, tablet, desktop)", "Choix de la bonne résolution d'image",
+            "Utilisation d'icônes de la bibliothèque FONT AWESOME.", "Utilisation des couleurs de la charte graphique",
+            "Utilisation de la police RALEWAY", "Ne pas utiliser de framework ou pré-compilateur CSS", "Utilisation de Flexbox ou CSS Grid", "Utilisation des balises sémantiques (validation W3C)", "Séparation du code HTML du CSS"],
+        "competences": ["Intégration de contenu conformément à une maquette", "Utilisation d'un système de gestion de versions de projet", "Mise en place d'un environnement Front-end", "Implémentation d'une interface responsive"],
+        "languages": ["HTML","CSS","IntelliJ"],
         "illustration": "img_reservia.png",
         "screenshot":"Reservia.webp",
         "from_label": "OpenClassrooms"
@@ -86,23 +88,6 @@
     },
     {
         "id": 6,
-        "period": "Juin 2021",
-        "repo": 1,
-        "url": "https://github.com/GitDrinou/SandrineBrival_9_24052021.git",
-        "title": "Billed",
-        "resume": "Debuggage et tests unitaire automatisé d'un SaaS RH",
-        "goal": "Débugger et tester un Sass RH",
-        "scenario": "Vous êtes développeur front-end chez Billed, une entreprise qui produit des solutions Saas destinées aux équipes de ressources humaines. Malheureusement pour Billed, Garance, une collègue de la feature team \"note de frais\" a quitté l'entreprise avant d'avoir terminé l'application. Dans une semaine, l'équipe doit montrerla solution qui fonctionne à l'ensemble de l'entreprise. Mathieu, Lead Developper de la feature team a demandé à être épaulé pour tenir les délais. Vous êtes désigné pour mettre en place les tests sur la fonctionnalité \"notes de frais\"",
-        "resources":  ["Description des fonctionnalités (PDF)", "Repo Git du code à tester","Kanban Notion"],
-        "contraintes" : ["Fixer les bugs fixés par la QA","Ajouter des tests unitaires d'intégration pour les fichiers Bills et NewBill","Réaliser un plan de test E2E pour la QA au format PDF", "Utilisation de JEST"],
-        "competences": ["Débugger une application","Ecrire des tests d'intégration avec JavaScript","Ecrire des tests unitaires avec JavaScript","Rédiger un plan de test end-to-end manuel"],
-        "languages": ["Jest","Javascript","HTML","CSS","VSCode"],
-        "illustration": "img_billed.png",
-        "screenshot":"Billed.webp",
-        "from_label": "OpenClassrooms"
-    },
-    {
-        "id": 7,
         "period": "Août 2021",
         "repo": 1,
         "url": "https://github.com/GitDrinou/SandrineBrival_11_30072021.git",
@@ -119,7 +104,7 @@
         "from_label": "OpenClassrooms"
     },
     {
-        "id": 8,
+        "id": 7,
         "period": "Juillet 2025",
         "repo": 1,
         "url": "https://github.com/GitDrinou/DAPython_P02_Task_Task_Automation.git",
@@ -136,7 +121,7 @@
         "from_label": "OpenClassrooms"
     },
     {
-        "id": 9,
+        "id": 8,
         "period": "Août 2025",
         "repo": 0,
         "url": "https://wax-enemy-cd2.notion.site/23efbb1a73cd8066b899e5d9498ac26b?v=23efbb1a73cd81efaf22000cddad1cb2",
@@ -154,7 +139,7 @@
         "from_label": "OpenClassrooms"
     },
     {
-        "id": 10,
+        "id": 9,
         "period": "Octobre 2025",
         "repo": 1,
         "url": "https://github.com/GitDrinou/DAPython_P04_Chess_Tournament.git",
@@ -172,7 +157,7 @@
         "from_label": "OpenClassrooms"
     },
     {
-        "id": 11,
+        "id": 10,
         "period": "Novembre 2025",
         "repo": 1,
         "url": "https://github.com/GitDrinou/DAPython_P06_Just_Stream_It.git",
@@ -189,7 +174,7 @@
         "from_label": "OpenClassrooms"
     },
     {
-        "id": 12,
+        "id": 11,
         "period": "Janvier 2026",
         "repo": 1,
         "url": "https://github.com/GitDrinou/DA_Python_P09_LITRevu.git",
