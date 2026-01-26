@@ -60,7 +60,7 @@ const displayProjectDetail = (projectId)=> {
             <a href="${myProject["url"]}" target="_blank" class="details-repo-link">${labelButtonSource}</a>
             </p>`
         : ""
-
+    let updateDate = myProject["updated_at"] !== "" ? "Mise à jour en: " + myProject["updated_at"]  : "";
     projectDetail.innerHTML = `
         <p class="details-bloc-text">
             <span>
@@ -69,7 +69,8 @@ const displayProjectDetail = (projectId)=> {
                 </svg>
                 POUR / DATE DE RÉALISATION:
             </span>
-             <br>${myProject["from_label"]} / ${myProject["period"]})
+             <br>${myProject["from_label"]} / ${myProject["period"]}<br>${updateDate}
+             
         </p>
         <p class="details-bloc-text">
             <span>

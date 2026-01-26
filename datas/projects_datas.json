@@ -16,7 +16,8 @@
         "languages": ["HTML","CSS","IntelliJ"],
         "illustration": "img_reservia.png",
         "screenshot":"Reservia.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": "Janvier 2026"
     },
     {
         "id": 2,
@@ -33,7 +34,8 @@
         "languages": ["HTML","Sass","CSS", "VSCode"],
         "illustration": "img_ohmyfood.png",
         "screenshot":"OhMyFood.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     },
     {
         "id": 3,
@@ -50,7 +52,8 @@
         "languages": ["Javascript","HTML","Sass","CSS", "VSCode"],
         "illustration": "img_gameon.png",
         "screenshot":"GameOn.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     },
     {
         "id": 4,
@@ -67,7 +70,8 @@
         "languages": ["Javascript","HTML","Sass","CSS", "VSCode"],
         "illustration": "img_fisheye.png",
         "screenshot":"FishEye.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     },
     {
         "id": 5,
@@ -84,7 +88,8 @@
         "languages": ["Javascript","Bootstrap","HTML","Sass", "VSCode"],
         "illustration": "img_petits_plats.png",
         "screenshot":"LesPetitsPlats.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     },
     {
         "id": 6,
@@ -101,7 +106,8 @@
         "languages": ["Javasript","HTML","Sass","CSS", "VSCode"],
         "illustration": "img_kasa.png",
         "screenshot":"Kasa.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     },
     {
         "id": 7,
@@ -118,7 +124,8 @@
         "languages": ["Python","PyCharm"],
         "illustration": "img_scraping_books.png",
         "screenshot":"Scrapping_books.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     },
     {
         "id": 8,
@@ -136,7 +143,8 @@
         "languages": ["Word","Notion", "Diagramme de classe", "Google Slide"],
         "illustration": "img_codeinguanas.png",
         "screenshot":"home_skolar.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     },
     {
         "id": 9,
@@ -154,7 +162,8 @@
         "languages": ["Python","Flake8", "Diagramme de classe", "MVC"],
         "illustration": "img_chess_tournament.png",
         "screenshot":"chess_tournament.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     },
     {
         "id": 10,
@@ -171,7 +180,8 @@
         "languages": ["HTML","CSS", "Javascript", "Figma"],
         "illustration": "img_streamit.png",
         "screenshot":"justStreamIt.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     },
     {
         "id": 11,
@@ -188,7 +198,8 @@
         "languages": ["Django","Template HTML", "CSS"],
         "illustration": "img_litrevu.png",
         "screenshot":"LitRevu.webp",
-        "from_label": "OpenClassrooms"
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     }
 ]
 
