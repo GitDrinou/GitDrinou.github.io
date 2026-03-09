@@ -231,7 +231,7 @@
         "resources":  ["Document de spécifications fonctionnelles"],
         "contraintes" : ["Utilisation de Pytest", "Utilisation de Locust", "Couverture de test à 60% minimum"],
         "competences": ["Débogage de code", "Test-Driven Development (TDD)", "gestion des erreurs et exceptions"],
-        "languages": ["PyCharm", "Flask", "Locust", "Pytest"],
+        "languages": ["PyCharm", "Flask", "Locust", "Pytest", "Package: Flake8"],
         "illustration": "img_gudlft.png",
         "screenshot":"gudlft.webp",
         "from_label": "OpenClassrooms",
