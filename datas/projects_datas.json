@@ -218,6 +218,24 @@
         "screenshot":"softdesk_swagger_ui.webp",
         "from_label": "OpenClassrooms",
         "updated_at": ""
+    },
+    {
+        "id": 13,
+        "period": "Mars 2026",
+        "repo": 1,
+        "url": "https://github.com/GitDrinou/DAPython_P11_Python_Testing.git",
+        "title": "GÜDLFT",
+        "resume":"Améliorer une application web Python par des tests et du débogage",
+        "goal": "Implémenter une suite de tests Python pour débugger une application Flask, en gérant les erreurs et les exceptions.",
+        "scenario": "Güdlft est une société qui a créé une plafeforme numérique pour coordonner des compétitions de forces (deadlifting, strongman) en Amérique du Nord et en Australie. Après son 5ème anniversaire, elle s'est retrouvée critiquée sur les réseaux sociaux.\nEn réponse, Güdlft a créé une équipe (Regional Outreach), chargée de créer une version de la plateforme plus légère (et moins coûteuse) pour les organisateurs régionaux. ",
+        "resources":  ["Document de spécifications fonctionnelles"],
+        "contraintes" : ["Utilisation de Pytest", "Utilisation de Locust", "Couverture de test à 60% minimum"],
+        "competences": ["Débogage de code", "Test-Driven Development (TDD)", "gestion des erreurs et exceptions"],
+        "languages": ["PyCharm", "Flask", "Locust", "Pytest"],
+        "illustration": "img_gudlft.png",
+        "screenshot":"gudlt.webp",
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
     }
 ]
 
