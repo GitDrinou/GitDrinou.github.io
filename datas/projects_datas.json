@@ -231,9 +231,27 @@
         "resources":  ["Document de spécifications fonctionnelles"],
         "contraintes" : ["Utilisation de Pytest", "Utilisation de Locust", "Couverture de test à 60% minimum"],
         "competences": ["Débogage de code", "Test-Driven Development (TDD)", "gestion des erreurs et exceptions"],
-        "languages": ["PyCharm", "Flask", "Locust", "Pytest", "Package: Flake8"],
+        "languages": ["PyCharm", "Flask", "Locust", "Pytest", "Flake8"],
         "illustration": "img_gudlft.png",
         "screenshot":"gudlft.webp",
+        "from_label": "OpenClassrooms",
+        "updated_at": ""
+    },
+    {
+        "id": 14,
+        "period": "Avril 2026",
+        "repo": 1,
+        "url": "https://github.com/GitDrinou/DA_Python_P12_Secure_Backend_Architecture.git",
+        "title": "Epic Events",
+        "resume":"Développer une architecture back-end sécurisée avec Python et SQL",
+        "goal": "Mettre en oeuvre une base de données sécurisée avec Python et SQL",
+        "scenario": "Epic Events est une entreprise de conseil et de gestion dans l'évènementiel répondant aux besoins des start-up voulant organiser des \"fêtes épiques\".Les équipes ont toujours travaillé avec des outils inadaptés.Approche proactive : élaboration d'un système CRM (Custom Relationship Management) sécurisé interne à l'entreprise, aidant à collecter et à traiter les données des clients et de leurs évènements.",
+        "resources":  ["Cachier des charges"],
+        "contraintes" : ["CRM en ligne de commande", "Utilisation de Sentry", "Authentification avec JWT", "Sécurisation des mots de passes avec Argon2", "Utilisation de SQLAlchemy", "Qualité du code"],
+        "competences": ["Réaliser des BDD relationnelles avec SQL", "Assurer la sécurisation et l'authentification du back-end", "Utiliser l'outil Sentry pour la journalisation"],
+        "languages": ["PyCharm", "Python", "Pytest", "Flake8", "Argon2", "SQLAlchemy", "MYSQL", "Click + Rich"],
+        "illustration": "img_epic_events.png",
+        "screenshot":"Epic_Events.webp",
         "from_label": "OpenClassrooms",
         "updated_at": ""
     }
