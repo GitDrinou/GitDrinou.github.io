@@ -10,4 +10,4 @@ Most of them have been realized during my trainings at OpenClassrooms (DA ReactJ
 
 Hope you'll enjoy this site.
 
-Let's go : [Portfolio](sbrival-portfolio.netlify.app)
+Let's go : [Portfolio](https://sbrival-portfolio.netlify.app)
