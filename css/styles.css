@@ -48,7 +48,7 @@ nav {
     padding: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 0.5rem;
     text-align: center;
     a {
@@ -102,25 +102,15 @@ nav {
         text-align: justify;
         line-height: 2rem;
     }
+    .active-link,
     a {
-         background-color: var(--color-white);
-         border-radius: 5px;
-        margin-top: 12px;
-         padding: 16px 0 16px 0;
-         width: 100%;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         color: var(--color-dark);
+         color: var(--color-green);
          font-weight: bold;
          cursor: pointer;
-         text-transform: uppercase;
          text-decoration: none;
      }
-    .active-link,
     a:hover {
-        background-color: var(--color-green);
-        color: var(--color-dark);
+        color: var(--color-green-light);
         text-decoration: none;
     }
 
@@ -272,7 +262,7 @@ footer {
     }
 
     nav {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     #projectCards {
